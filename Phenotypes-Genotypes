@@ -1,0 +1,1964 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Turkey Varieties and Genotypes - Porter's Rare Heritage Turkeys</title>
+    <meta name="description" content="Heritage Turkey varieties and genotypes page.">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5e1c1;
+        }
+
+        /* Title Section */
+        .site-title {
+            font-size: 3em;
+            font-weight: bold;
+            color: black;
+            background-color: #1E82E6;
+            text-shadow: 
+                -2px -2px 0 tan,
+                2px 2px 8px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Mobile Styles for Title */
+        @media screen and (max-width: 768px) {
+            .site-title {
+                font-size: 2em;
+                padding: 15px;
+            }
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            width: 100%;
+            background-image: url("https://porters-rare-heritage-turkeys.neocities.org/Pictures/wood%20background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 5px 0;
+            box-sizing: border-box;
+        }
+
+        .navbar-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex: 1;
+        }
+
+        .navbar li {
+            padding: 0 15px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+            display: block;
+            padding: 10px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar a:hover, .navbar a.active {
+            background-color: #575757;
+            color: yellow;
+            border-radius: 4px;
+        }
+
+        /* Menu Toggle Button (Hidden on Desktop) */
+        .menu-toggle {
+            display: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: white;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            border-radius: 4px;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: black;
+            background-color: transparent;
+            font-weight: bold;
+        }
+
+        /* Mobile-specific styles */
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                display: none;
+                width: 100%;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .navbar ul.active {
+                display: flex;
+            }
+
+            .navbar li {
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .navbar a {
+                padding: 10px 0;
+                width: 100%;
+            }
+
+            .site-title {
+                font-size: 1.5em;
+                padding: 15px;
+            }
+        }
+
+        /* Additional Table and Image Styles */
+        .center-table, h1, p, .larger-text {
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 2px solid #4C82D9;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #5C94ED;
+            color: white;
+        }
+
+        .variety-name {
+            font-weight: bold;
+        }
+
+        img {
+            width: 100px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .genotype {
+            display: block;
+            margin-top: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .placeholder-text {
+            font-style: italic;
+            text-align: center;
+            display: block;
+            margin-top: 5px;
+        }
+        
+        /* Mobile portrait view adjustments */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    body {
+        overflow-x: hidden; /* Prevents horizontal scroll */
+    }
+    
+    .content {
+        padding: 10px; /* Reduces padding for better fitting on smaller screens */
+        width: 100%; /* Ensures content fits within the screen width */
+        box-sizing: border-box;
+    }
+    
+    .site-title {
+        font-size: 1.8em; /* Slightly smaller title for better fitting */
+        padding: 10px; /* Reduce padding to fit better */
+    }
+
+    img {
+        max-width: 100%; /* Ensures images are not larger than the screen */
+        height: auto;
+    }
+
+    .navbar ul {
+        padding: 0; /* Remove extra padding */
+        margin: 0;
+    }
+
+    .navbar a {
+        padding: 8px; /* Slightly smaller padding to fit links better */
+        font-size: 1em;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white; /* Set table background to white */
+}
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- Website Title -->
+    <div class="site-title"><i>Porter's Rare Heritage Turkeys</i></div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="navbar-container">
+            <button class="menu-toggle">☰ Menu</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://porters-rare-heritage-turkeys.neocities.org/Varieties">Varieties</a></li>
+                <li><a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyColorCalculators">Turkey Color Calculators</a></li>
+                <li><a href="https://porters-rare-heritage-turkeys.neocities.org/Phenotypes-Genotypes" class="active">Phenotype/Genotypes</a></li>
+                <li><a href="https://porters-rare-heritage-turkeys.neocities.org/Feather-Color-Genetics">Feather Color Genetics</a></li>
+               
+                
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+
+<div class="center-table">
+    <h1>Most Common Varieties and their Genotypes</h1>
+    <p>(All genotypes are listed in short format)</p>
+    <p>(Click directly on images to enlarge)</p>
+    <p>(More images will be added as they become available)</p>
+    
+    <label for="varietySelector">Search by Variety:</label>
+<select id="varietySelector">
+    <option value="">Select a variety</option>
+    <!-- Dynamically populate options -->
+</select>
+<button id="resetVariety" type="button">Reset</button>
+
+
+    
+    
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Variety Name</th>
+                <th>Male phenotype and genotype</th>
+                <th>Female phenotype and genotype</th>
+                <th>Poult pattern at hatch</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+<!-- Auburn -->
+<tr>
+  <td class="variety-name">Auburn</td>
+  <td data-variety-name="Auburn" class="turkey-image male" data-genotype="bb ee"></td>
+  <td data-variety-name="Auburn" class="turkey-image female" data-genotype="bb e-"></td>
+  <td data-variety-name="Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Black -->
+<tr>
+  <td class="variety-name">Barred Black</td>
+  <td data-variety-name="Barred Black" class="turkey-image male" data-genotype="Bb"></td>
+  <td data-variety-name="Barred Black" class="turkey-image female" data-genotype="Bb"></td>
+  <td data-variety-name="Barred Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Black Tuxedo -->
+<tr>
+  <td class="variety-name">Barred Black Tuxedo</td>
+  <td data-variety-name="Barred Black Tuxedo" class="turkey-image male" data-genotype="Bb cmcm"></td>
+  <td data-variety-name="Barred Black Tuxedo" class="turkey-image female" data-genotype="Bb cmcm"></td>
+  <td data-variety-name="Barred Black Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Chocolate -->
+<tr>
+  <td class="variety-name">Barred Chocolate</td>
+  <td data-variety-name="Barred Chocolate" class="turkey-image male" data-genotype="Bb ee"></td>
+  <td data-variety-name="Barred Chocolate" class="turkey-image female" data-genotype="Bb e-"></td>
+  <td data-variety-name="Barred Chocolate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Chocolate Tuxedo -->
+<tr>
+  <td class="variety-name">Barred Chocolate Tuxedo</td>
+  <td data-variety-name="Barred Chocolate Tuxedo" class="turkey-image male" data-genotype="Bb cmcm ee"></td>
+  <td data-variety-name="Barred Chocolate Tuxedo" class="turkey-image female" data-genotype="Bb cmcm e-"></td>
+  <td data-variety-name="Barred Chocolate Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Jersey Buff -->
+<tr>
+  <td class="variety-name">Barred Jersey Buff</td>
+  <td data-variety-name="Barred Jersey Buff" class="turkey-image male" data-genotype="Bb rr"></td>
+  <td data-variety-name="Barred Jersey Buff" class="turkey-image female" data-genotype="Bb rr"></td>
+  <td data-variety-name="Barred Jersey Buff" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Recessive Blue -->
+<tr>
+  <td class="variety-name">Barred Recessive Blue</td>
+  <td data-variety-name="Barred Recessive Blue" class="turkey-image male" data-genotype="Bb slsl"></td>
+  <td data-variety-name="Barred Recessive Blue" class="turkey-image female" data-genotype="Bb slsl"></td>
+  <td data-variety-name="Barred Recessive Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Recessive Blue Tuxedo -->
+<tr>
+  <td class="variety-name">Barred Recessive Blue Tuxedo</td>
+  <td data-variety-name="Barred Recessive Blue Tuxedo" class="turkey-image male" data-genotype="Bb cmcm slsl"></td>
+  <td data-variety-name="Barred Recessive Blue Tuxedo" class="turkey-image female" data-genotype="Bb cmcm slsl"></td>
+  <td data-variety-name="Barred Recessive Blue Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Barred Slate -->
+<tr>
+  <td class="variety-name">Barred Slate</td>
+  <td data-variety-name="Barred Slate" class="turkey-image male" data-genotype="Bb Dd"></td>
+  <td data-variety-name="Barred Slate" class="turkey-image female" data-genotype="Bb Dd"></td>
+  <td data-variety-name="Barred Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Beltsville Small White-->
+<tr>
+  <td class="variety-name">Beltsville Small White</td>
+  <td data-variety-name="Beltsville Small White" class="turkey-image male" data-genotype="bb cc"></td>
+  <td data-variety-name="Beltsville Small White" class="turkey-image female" data-genotype="bb cc"></td>
+  <td data-variety-name="Beltsville Small White" class="turkey-image poults"></td>
+</tr>
+
+<!-- Black -->
+<tr>
+  <td class="variety-name">Black</td>
+  <td data-variety-name="Black" class="turkey-image male" data-genotype="BB"></td>
+  <td data-variety-name="Black" class="turkey-image female" data-genotype="BB"></td>
+  <td data-variety-name="Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Black Tuxedo -->
+<tr>
+  <td class="variety-name">Black Tuxedo</td>
+  <td data-variety-name="Black Tuxedo" class="turkey-image male" data-genotype="BB cmcm"></td>
+  <td data-variety-name="Black Tuxedo" class="turkey-image female" data-genotype="BB cmcm"></td>
+  <td data-variety-name="Black Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Black Winged Bronze -->
+<tr>
+  <td class="variety-name">Black Winged Bronze</td>
+  <td data-variety-name="Black Winged Bronze" class="turkey-image male" data-genotype="b1b1"></td>
+  <td data-variety-name="Black Winged Bronze" class="turkey-image female" data-genotype="b1b1"></td>
+  <td data-variety-name="Black Winged Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Black Winged Narragansett -->
+<tr>
+  <td class="variety-name">Black Winged Narragansett</td>
+  <td data-variety-name="Black Winged Narragansett" class="turkey-image male" data-genotype="b1b1 nn"></td>
+  <td data-variety-name="Black Winged Narragansett" class="turkey-image female" data-genotype="b1b1 n-"></td>
+  <td data-variety-name="Black Winged Narragansett" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Calico -->
+<tr>
+  <td class="variety-name">Blue Calico</td>
+  <td data-variety-name="Blue Calico" class="turkey-image male" data-genotype="b1b1 cgcg Dd nn Rr"></td>
+  <td data-variety-name="Blue Calico" class="turkey-image female" data-genotype="b1b1 cgcg Dd n- Rr"></td>
+  <td data-variety-name="Blue Calico" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Cornish Palm -->
+<tr>
+  <td class="variety-name">Blue Cornish Palm</td>
+  <td data-variety-name="Blue Cornish Palm" class="turkey-image male" data-genotype="b1b1 Ccg Dd"></td>
+  <td data-variety-name="Blue Cornish Palm" class="turkey-image female" data-genotype="b1b1 Ccg Dd"></td>
+  <td data-variety-name="Blue Cornish Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Fall Fire -->
+<tr>
+  <td class="variety-name">Blue Fall Fire</td>
+  <td data-variety-name="Blue Fall Fire" class="turkey-image male" data-genotype="b1b1 cgcg Dd Rr"></td>
+  <td data-variety-name="Blue Fall Fire" class="turkey-image female" data-genotype="b1b1 cgcg Dd Rr"></td>
+  <td data-variety-name="Blue Fall Fire" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Narragansett -->
+<tr>
+  <td class="variety-name">Blue Narragansett</td>
+  <td data-variety-name="Blue Narragansett" class="turkey-image male" data-genotype="bb Dd nn"></td>
+  <td data-variety-name="Blue Narragansett" class="turkey-image female" data-genotype="bb Dd n-"></td>
+  <td data-variety-name="Blue Narragansett" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Palm -->
+<tr>
+  <td class="variety-name">Blue Palm</td>
+  <td data-variety-name="Blue Palm" class="turkey-image male" data-genotype="b1b1 cgcg Dd nn"></td>
+  <td data-variety-name="Blue Palm" class="turkey-image female" data-genotype="b1b1 cgcg Dd n-"></td>
+  <td data-variety-name="Blue Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Red Bronze -->
+<tr>
+  <td class="variety-name">Blue Red Bronze</td>
+  <td data-variety-name="Blue Red Bronze" class="turkey-image male" data-genotype="bb Dd Rr"></td>
+  <td data-variety-name="Blue Red Bronze" class="turkey-image female" data-genotype="bb Dd Rr"></td>
+  <td data-variety-name="Blue Red Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Red Phoenix -->
+<tr>
+  <td class="variety-name">Blue Red Phoenix</td>
+  <td data-variety-name="Blue Red Phoenix" class="turkey-image male" data-genotype="b1b1 Ccg Dd Rr"></td>
+  <td data-variety-name="Blue Red Phoenix" class="turkey-image female" data-genotype="b1b1 Ccg Dd Rr"></td>
+  <td data-variety-name="Blue Red Phoenix" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Slate (AKA Slate") -->
+<tr>
+  <td class="variety-name">Blue Slate (aka Slate)</td>
+  <td data-variety-name="Slate" class="turkey-image male" data-genotype="BB Dd"></td>
+  <td data-variety-name=" Slate" class="turkey-image female" data-genotype="BB Dd"></td>
+  <td data-variety-name="Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Blue Sweetgrass -->
+<tr>
+  <td class="variety-name">Blue Sweetgrass</td>
+  <td data-variety-name="Blue Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg Dd"></td>
+  <td data-variety-name="Blue Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg Dd"></td>
+  <td data-variety-name="Blue Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Bourbon Buff -->
+<tr>
+  <td class="variety-name">Bourbon Buff</td>
+  <td data-variety-name="Bourbon Buff" class="turkey-image male" data-genotype="bb nn rr"></td>
+  <td data-variety-name="Bourbon Buff" class="turkey-image female" data-genotype="bb n- rr"></td>
+  <td data-variety-name="Bourbon Buff" class="turkey-image poults"></td>
+</tr>
+
+<!-- Bourbon Red -->
+<tr>
+  <td class="variety-name">Bourbon Red</td>
+  <td data-variety-name="Bourbon Red" class="turkey-image male" data-genotype="bb rr"></td>
+  <td data-variety-name="Bourbon Red" class="turkey-image female" data-genotype="bb rr"></td>
+  <td data-variety-name="Bourbon Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Bronze -->
+<tr>
+  <td class="variety-name">Bronze</td>
+  <td data-variety-name="Bronze" class="turkey-image male" data-genotype="bb"></td>
+  <td data-variety-name="Bronze" class="turkey-image female" data-genotype="bb"></td>
+  <td data-variety-name="Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Brown Winged Golden Silver Auburn -->
+<tr>
+  <td class="variety-name">Brown Winged Golden Silver Auburn</td>
+  <td data-variety-name="Brown Winged Golden Silver Auburn" class="turkey-image male" data-genotype="b1b1 ee nn Rr"></td>
+  <td data-variety-name="Brown Winged Golden Silver Auburn" class="turkey-image female" data-genotype="b1b1 e- n- Rr"></td>
+  <td data-variety-name="Brown Winged Golden Silver Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Calico -->
+<tr>
+  <td class="variety-name">Calico</td>
+  <td data-variety-name="Calico" class="turkey-image male" data-genotype="b1b1 cgcg nn Rr"></td>
+  <td data-variety-name="Calico" class="turkey-image female" data-genotype="b1b1 cgcg n- Rr"></td>
+  <td data-variety-name="Calico" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chestnut Buff -->
+<tr>
+  <td class="variety-name">Chestnut Buff</td>
+  <td data-variety-name="Chestnut Buff" class="turkey-image male" data-genotype="bb1 nn rr"></td>
+  <td data-variety-name="Chestnut Buff" class="turkey-image female" data-genotype="bb1 n- rr"></td>
+  <td data-variety-name="Chestnut Buff" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chestnut Red -->
+<tr>
+  <td class="variety-name">Chestnut Red</td>
+  <td data-variety-name="Chestnut Red" class="turkey-image male" data-genotype="bb1 rr"></td>
+  <td data-variety-name="Chestnut Red" class="turkey-image female" data-genotype="bb1 rr"></td>
+  <td data-variety-name="Chestnut Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate -->
+<tr>
+  <td class="variety-name">Chocolate</td>
+  <td data-variety-name="Chocolate" class="turkey-image male" data-genotype="BB ee"></td>
+  <td data-variety-name="Chocolate" class="turkey-image female" data-genotype="BB e-"></td>
+  <td data-variety-name="Chocolate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Calico -->
+<tr>
+  <td class="variety-name">Chocolate Calico</td>
+  <td data-variety-name="Chocolate Calico" class="turkey-image male" data-genotype="b1b1 cgcg ee nn Rr"></td>
+  <td data-variety-name="Chocolate Calico" class="turkey-image female" data-genotype="b1b1 cgcg e- n- Rr"></td>
+  <td data-variety-name="Chocolate Calico" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Dapple -->
+<tr>
+  <td class="variety-name">Chocolate Dapple</td>
+  <td data-variety-name="Chocolate Dapple" class="turkey-image male" data-genotype="Bb cgc ee nn"></td>
+  <td data-variety-name="Chocolate Dapple" class="turkey-image female" data-genotype="Bb cgc e- n-"></td>
+  <td data-variety-name="Chocolate Dapple" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Fall Fire -->
+<tr>
+  <td class="variety-name">Chocolate Fall Fire</td>
+  <td data-variety-name="Chocolate Fall Fire" class="turkey-image male" data-genotype="b1b1 cgcg ee Rr"></td>
+  <td data-variety-name="Chocolate Fall Fire" class="turkey-image female" data-genotype="b1b1 cgcg e- Rr"></td>
+  <td data-variety-name="Chocolate Fall Fire" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Fawn -->
+<tr>
+  <td class="variety-name">Chocolate Fawn</td>
+  <td data-variety-name="Chocolate Fawn" class="turkey-image male" data-genotype="bb cmc ee"></td>
+  <td data-variety-name="Chocolate Fawn" class="turkey-image female" data-genotype="bb cmc e-"></td>
+  <td data-variety-name="Chocolate Fawn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Painted (Split Black Winged Bronze) -->
+<tr>
+  <td class="variety-name">Chocolate Painted (Split Black Winged Bronze)</td>
+  <td data-variety-name="Chocolate Painted (Split Black Winged Bronze)" class="turkey-image male" data-genotype="Bb1 cmc ee"></td>
+  <td data-variety-name="Chocolate Painted (Split Black Winged Bronze)" class="turkey-image female" data-genotype="Bb1 cmc e-"></td>
+  <td data-variety-name="Chocolate Painted (Split Black Winged Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Painted (Split Bronze) -->
+<tr>
+  <td class="variety-name">Chocolate Painted (Split Bronze)</td>
+  <td data-variety-name="Chocolate Painted (Split Bronze)" class="turkey-image male" data-genotype="Bb cmc ee"></td>
+  <td data-variety-name="Chocolate Painted (Split Bronze)" class="turkey-image female" data-genotype="Bb cmc e-"></td>
+  <td data-variety-name="Chocolate Painted (Split Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Palm -->
+<tr>
+  <td class="variety-name">Chocolate Palm</td>
+  <td data-variety-name="Chocolate Palm" class="turkey-image male" data-genotype="b1b1 cgcg ee nn"></td>
+  <td data-variety-name="Chocolate Palm" class="turkey-image female" data-genotype="b1b1 cgcg e- n-"></td>
+  <td data-variety-name="Chocolate Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Slate -->
+<tr>
+  <td class="variety-name">Chocolate Slate</td>
+  <td data-variety-name="Chocolate Slate" class="turkey-image male" data-genotype="BB ee Dd"></td>
+  <td data-variety-name="Chocolate Slate" class="turkey-image female" data-genotype="BB e- Dd"></td>
+  <td data-variety-name="Chocolate Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Sweetgrass -->
+<tr>
+  <td class="variety-name">Chocolate Sweetgrass</td>
+  <td data-variety-name="Chocolate Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg ee"></td>
+  <td data-variety-name="Chocolate Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg e-"></td>
+  <td data-variety-name="Chocolate Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Chocolate Tuxedo -->
+<tr>
+  <td class="variety-name">Chocolate Tuxedo</td>
+  <td data-variety-name="Chocolate Tuxedo" class="turkey-image male" data-genotype="BB cmcm ee"></td>
+  <td data-variety-name="Chocolate Tuxedo" class="turkey-image female" data-genotype="BB cmcm e-"></td>
+  <td data-variety-name="Chocolate Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Cornish Palm -->
+<tr>
+  <td class="variety-name">Cornish Palm</td>
+  <td data-variety-name="Cornish Palm" class="turkey-image male" data-genotype="b1b1 Ccg"></td>
+  <td data-variety-name="Cornish Palm" class="turkey-image female" data-genotype="b1b1 Ccg"></td>
+  <td data-variety-name="Cornish Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Dark Blue -->
+<tr>
+  <td class="variety-name">Dark Blue</td>
+  <td data-variety-name="Dark Blue" class="turkey-image male" data-genotype="bb cgcg Dd nn"></td>
+  <td data-variety-name="Dark Blue" class="turkey-image female" data-genotype="bb cgcg Dd n-"></td>
+  <td data-variety-name="Dark Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Dark Gray -->
+<tr>
+  <td class="variety-name">Dark Gray</td>
+  <td data-variety-name="Dark Gray" class="turkey-image male" data-genotype="bb cgcg nn"></td>
+  <td data-variety-name="Dark Gray" class="turkey-image female" data-genotype="bb cgcg n-"></td>
+  <td data-variety-name="Dark Gray" class="turkey-image poults"></td>
+</tr>
+
+<!-- Dark Red-->
+<tr>
+  <td class="variety-name">Dark Red</td>
+  <td data-variety-name="Dark Red" class="turkey-image male" data-genotype="bb cgcg nn rr"></td>
+  <td data-variety-name="Dark Red" class="turkey-image female" data-genotype="bb cgcg n- rr"></td>
+  <td data-variety-name="Dark Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Dilute Rusty Black -->
+<tr>
+  <td class="variety-name">Dilute Rusty Black</td>
+  <td data-variety-name="Dilute Rusty Black" class="turkey-image male" data-genotype="Bb nn Rr"></td>
+  <td data-variety-name="Dilute Rusty Black" class="turkey-image female" data-genotype="Bb n- Rr"></td>
+  <td data-variety-name="Dilute Rusty Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Dilute Rusty Slate -->
+<tr>
+  <td class="variety-name">Dilute Rusty Slate</td>
+  <td data-variety-name="Dilute Rusty Slate" class="turkey-image male" data-genotype="Bb Dd nn Rr"></td>
+  <td data-variety-name="Dilute Rusty Slate" class="turkey-image female" data-genotype="Bb Dd n- Rr"></td>
+  <td data-variety-name="Dilute Rusty Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Fall Fire -->
+<tr>
+  <td class="variety-name">Fall Fire</td>
+  <td data-variety-name="Fall Fire" class="turkey-image male" data-genotype="b1b1 cgcg Rr"></td>
+  <td data-variety-name="Fall Fire" class="turkey-image female" data-genotype="b1b1 cgcg Rr"></td>
+  <td data-variety-name="Fall Fire" class="turkey-image poults"></td>
+</tr>
+
+<!-- Fawn -->
+<tr>
+  <td class="variety-name">Fawn</td>
+  <td data-variety-name="Fawn" class="turkey-image male" data-genotype="bb cmc"></td>
+  <td data-variety-name="Fawn" class="turkey-image female" data-genotype="bb cmc"></td>
+  <td data-variety-name="Fawn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Frosted Dark Blue -->
+<tr>
+  <td class="variety-name">Frosted Dark Blue</td>
+  <td data-variety-name="Frosted Dark Blue" class="turkey-image male" data-genotype="bb cgcg Dd nn Rr"></td>
+  <td data-variety-name="Frosted Dark Blue" class="turkey-image female" data-genotype="bb cgcg Dd n- Rr"></td>
+  <td data-variety-name="Frosted Dark Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Frosted Dark Gray -->
+<tr>
+  <td class="variety-name">Frosted Dark Gray</td>
+  <td data-variety-name="Frosted Dark Gray" class="turkey-image male" data-genotype="bb cgcg nn Rr"></td>
+  <td data-variety-name="Frosted Dark Gray" class="turkey-image female" data-genotype="bb cgcg n- Rr"></td>
+  <td data-variety-name="Frosted Dark Gray" class="turkey-image poults"></td>
+</tr>
+
+<!-- Frosted Oregon Blue -->
+<tr>
+  <td class="variety-name">Frosted Oregon Blue</td>
+  <td data-variety-name="Frosted Oregon Blue" class="turkey-image male" data-genotype="bb cgc Dd nn Rr"></td>
+  <td data-variety-name="Frosted Oregon Blue" class="turkey-image female" data-genotype="bb cgc Dd n- Rr"></td>
+  <td data-variety-name="Frosted Oregon Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Frosted Oregon Gray -->
+<tr>
+  <td class="variety-name">Frosted Oregon Gray</td>
+  <td data-variety-name="Frosted Oregon Gray" class="turkey-image male" data-genotype="bb cgc nn Rr"></td>
+  <td data-variety-name="Frosted Oregon Gray" class="turkey-image female" data-genotype="bb cgc n- Rr"></td>
+  <td data-variety-name="Frosted Oregon Gray" class="turkey-image poults"></td>
+</tr>
+
+<!-- Golden Narragansett -->
+<tr>
+  <td class="variety-name">Golden Narragansett</td>
+  <td data-variety-name="Golden Narragansett" class="turkey-image male" data-genotype="bb nn Rr"></td>
+  <td data-variety-name="Golden Narragansett" class="turkey-image female" data-genotype="bb n- Rr"></td>
+  <td data-variety-name="Golden Narragansett" class="turkey-image poults"></td>
+</tr>
+
+<!-- Golden Phoenix -->
+<tr>
+  <td class="variety-name">Golden Phoenix</td>
+  <td data-variety-name="Golden Phoenix" class="turkey-image male" data-genotype="b1b1 Ccg nn Rr"></td>
+  <td data-variety-name="Golden Phoenix" class="turkey-image female" data-genotype="b1b1 Ccg n- Rr"></td>
+  <td data-variety-name="Golden Phoenix" class="turkey-image poults"></td>
+</tr>
+
+<!-- Golden Silver Auburn -->
+<tr>
+  <td class="variety-name">Golden Silver Auburn</td>
+  <td data-variety-name="Golden Silver Auburn" class="turkey-image male" data-genotype="bb ee nn Rr"></td>
+  <td data-variety-name="Golden Silver Auburn" class="turkey-image female" data-genotype="bb e- n- Rr"></td>
+  <td data-variety-name="Golden Silver Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Black Painted -->
+<tr>
+  <td class="variety-name">Grizzled Black Painted</td>
+  <td data-variety-name="Grizzled Black Painted" class="turkey-image male" data-genotype="BB cmc"></td>
+  <td data-variety-name="Grizzled Black Painted" class="turkey-image female" data-genotype="BB cmc"></td>
+  <td data-variety-name="Grizzled Black Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Chocolate Painted -->
+<tr>
+  <td class="variety-name">Grizzled Chocolate Painted</td>
+  <td data-variety-name="Grizzled Chocolate Painted" class="turkey-image male" data-genotype="BB cmc ee"></td>
+  <td data-variety-name="Grizzled Chocolate Painted" class="turkey-image female" data-genotype="BB cmc e-"></td>
+  <td data-variety-name="Grizzled Chocolate Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Lavender Painted -->
+<tr>
+  <td class="variety-name">Grizzled Lavender Painted</td>
+  <td data-variety-name="Grizzled Lavender Painted" class="turkey-image male" data-genotype="BB cmc DD"></td>
+  <td data-variety-name="Grizzled Lavender Painted" class="turkey-image female" data-genotype="BB cmc DD"></td>
+  <td data-variety-name="Grizzled Lavender Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Recessive Blue Painted -->
+<tr>
+  <td class="variety-name">Grizzled Recessive Blue Painted</td>
+  <td data-variety-name="Grizzled Recessive Blue Painted" class="turkey-image male" data-genotype="BB cmc slsl"></td>
+  <td data-variety-name="Grizzled Recessive Blue Painted" class="turkey-image female" data-genotype="BB cmc slsl"></td>
+  <td data-variety-name="Grizzled Recessive Blue Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Rusty Lavender Painted -->
+<tr>
+  <td class="variety-name">Grizzled Rusty Lavender Painted</td>
+  <td data-variety-name="Grizzled Rusty Lavender Painted" class="turkey-image male" data-genotype="BB cmc DD Rr"></td>
+  <td data-variety-name="Grizzled Rusty Lavender Painted" class="turkey-image female" data-genotype="BB cmc DD Rr"></td>
+  <td data-variety-name="Grizzled Rusty Lavender Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Rusty Painted -->
+<tr>
+  <td class="variety-name">Grizzled Rusty Painted</td>
+  <td data-variety-name="Grizzled Rusty Painted" class="turkey-image male" data-genotype="BB cmc Rr"></td>
+  <td data-variety-name="Grizzled Rusty Painted" class="turkey-image female" data-genotype="BB cmc Rr"></td>
+  <td data-variety-name="Grizzled Rusty Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Rusty Slate Painted -->
+<tr>
+  <td class="variety-name">Grizzled Rusty Slate Painted</td>
+  <td data-variety-name="Grizzled Rusty Slate Painted" class="turkey-image male" data-genotype="BB cmc Dd Rr"></td>
+  <td data-variety-name="Grizzled Rusty Slate Painted" class="turkey-image female" data-genotype="BB cmc Dd Rr"></td>
+  <td data-variety-name="Grizzled Rusty Slate Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Grizzled Slate Painted -->
+<tr>
+  <td class="variety-name">Grizzled Slate Painted</td>
+  <td data-variety-name="Grizzled Slate Painted" class="turkey-image male" data-genotype="BB cmc Dd"></td>
+  <td data-variety-name="Grizzled Slate Painted" class="turkey-image female" data-genotype="BB cmc Dd"></td>
+  <td data-variety-name="Grizzled Slate Painted" class="turkey-image poults"></td>
+</tr>
+
+<!-- Harvest Gold -->
+<tr>
+  <td class="variety-name">Harvest Gold</td>
+  <td data-variety-name="Harvest Gold" class="turkey-image male" data-genotype="b1b1 Rr"></td>
+  <td data-variety-name="Harvest Gold" class="turkey-image female" data-genotype="b1b1 Rr"></td>
+  <td data-variety-name="Harvest Gold" class="turkey-image poults"></td>
+</tr>
+
+<!-- Jersey Buff -->
+<tr>
+  <td class="variety-name">Jersey Buff</td>
+  <td data-variety-name="Jersey Buff" class="turkey-image male" data-genotype="BB rr"></td>
+  <td data-variety-name="Jersey Buff" class="turkey-image female" data-genotype="BB rr"></td>
+  <td data-variety-name="Jersey Buff" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender -->
+<tr>
+  <td class="variety-name">Lavender</td>
+  <td data-variety-name="Lavender" class="turkey-image male" data-genotype="BB DD"></td>
+  <td data-variety-name="Lavender" class="turkey-image female" data-genotype="BB DD"></td>
+  <td data-variety-name="Lavender" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Edged Bourbon Red -->
+<tr>
+  <td class="variety-name">Lavender Edged Bourbon Red</td>
+  <td data-variety-name="Lavender Edged Bourbon Red" class="turkey-image male" data-genotype="bb DD rr"></td>
+  <td data-variety-name="Lavender Edged Bourbon Red" class="turkey-image female" data-genotype="bb DD rr"></td>
+  <td data-variety-name="Lavender Edged Bourbon Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Fall Fire -->
+<tr>
+  <td class="variety-name">Lavender Fall Fire</td>
+  <td data-variety-name="Lavender Fall Fire" class="turkey-image male" data-genotype="b1b1 cgcg DD Rr"></td>
+  <td data-variety-name="Lavender Fall Fire" class="turkey-image female" data-genotype="b1b1 cgcg DD Rr"></td>
+  <td data-variety-name="Lavender Fall Fire" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Painted (Split Black Winged Bronze) -->
+<tr>
+  <td class="variety-name">Lavender Painted (Split Black Winged Bronze)</td>
+  <td data-variety-name="Lavender Painted (Split Black Winged Bronze)" class="turkey-image male" data-genotype="Bb1 cmc DD"></td>
+  <td data-variety-name="Lavender Painted (Split Black Winged Bronze)" class="turkey-image female" data-genotype="Bb1 cmc DD"></td>
+  <td data-variety-name="Lavender Painted (Split Black Winged Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Painted (Split Bronze) -->
+<tr>
+  <td class="variety-name">Lavender Painted (Split Bronze)</td>
+  <td data-variety-name="Lavender Painted (Split Bronze)" class="turkey-image male" data-genotype="Bb cmc DD"></td>
+  <td data-variety-name="Lavender Painted (Split Bronze)" class="turkey-image female" data-genotype="Bb cmc DD"></td>
+  <td data-variety-name="Lavender Painted (Split Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Palm -->
+<tr>
+  <td class="variety-name">Lavender Palm</td>
+  <td data-variety-name="Lavender Palm" class="turkey-image male" data-genotype="b1b1 cgcg DD nn"></td>
+  <td data-variety-name="Lavender Palm" class="turkey-image female" data-genotype="b1b1 cgcg DD n-"></td>
+  <td data-variety-name="Lavender Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Red Bronze -->
+<tr>
+  <td class="variety-name">Lavender Red Bronze</td>
+  <td data-variety-name="Lavender Red Bronze" class="turkey-image male" data-genotype="bb DD Rr"></td>
+  <td data-variety-name="Lavender Red Bronze" class="turkey-image female" data-genotype="bb DD Rr"></td>
+  <td data-variety-name="Lavender Red Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Sweetgrass -->
+<tr>
+  <td class="variety-name">Lavender Sweetgrass</td>
+  <td data-variety-name="Lavender Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg DD"></td>
+  <td data-variety-name="Lavender Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg DD"></td>
+  <td data-variety-name="Lavender Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lavender Tuxedo -->
+<tr>
+  <td class="variety-name">Lavender Tuxedo</td>
+  <td data-variety-name="Lavender Tuxedo" class="turkey-image male" data-genotype="BB cmcm DD"></td>
+  <td data-variety-name="Lavender Tuxedo" class="turkey-image female" data-genotype="BB cmcm DD"></td>
+  <td data-variety-name="Lavender Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Light Buff -->
+<tr>
+  <td class="variety-name">Light Buff</td>
+  <td data-variety-name="Light Buff" class="turkey-image male" data-genotype="b1b1 Ccg nn rr"></td>
+  <td data-variety-name="Light Buff" class="turkey-image female" data-genotype="b1b1 Ccg n- rr"></td>
+  <td data-variety-name="Light Buff" class="turkey-image poults"></td>
+</tr>
+
+<!-- Light Red -->
+<tr>
+  <td class="variety-name">Light Red</td>
+  <td data-variety-name="Light Red" class="turkey-image male" data-genotype="b1b1 Ccg rr"></td>
+  <td data-variety-name="Light Red" class="turkey-image female" data-genotype="b1b1 Ccg rr"></td>
+  <td data-variety-name="Light Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Lilac -->
+<tr>
+  <td class="variety-name">Lilac</td>
+  <td data-variety-name="Lilac" class="turkey-image male" data-genotype="bb DD"></td>
+  <td data-variety-name="Lilac" class="turkey-image female" data-genotype="bb DD"></td>
+  <td data-variety-name="Lilac" class="turkey-image poults"></td>
+</tr>
+
+<!-- Marbled Black -->
+<tr>
+  <td class="variety-name">Marbled Black</td>
+  <td data-variety-name="Marbled Black" class="turkey-image male" data-genotype="BB cgcg nn"></td>
+  <td data-variety-name="Marbled Black" class="turkey-image female" data-genotype="BB cgcg n-"></td>
+  <td data-variety-name="Marbled Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Marbled Lavender -->
+<tr>
+  <td class="variety-name">Marbled Lavender</td>
+  <td data-variety-name="Marbled Lavender" class="turkey-image male" data-genotype="BB cgcg DD nn"></td>
+  <td data-variety-name="Marbled Lavender" class="turkey-image female" data-genotype="BB cgcg DD n-"></td>
+  <td data-variety-name="Marbled Lavender" class="turkey-image poults"></td>
+</tr>
+
+<!-- Marbled Slate -->
+<tr>
+  <td class="variety-name">Marbled Slate</td>
+  <td data-variety-name="Marbled Slate" class="turkey-image male" data-genotype="BB cgcg Dd nn"></td>
+  <td data-variety-name="Marbled Slate" class="turkey-image female" data-genotype="BB cgcg Dd n-"></td>
+  <td data-variety-name="Marbled Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Midget White -->
+<tr>
+  <td class="variety-name">Midget White</td>
+  <td data-variety-name="Midget White" class="turkey-image male" data-genotype="bb cc"></td>
+  <td data-variety-name="Midget White" class="turkey-image female" data-genotype="bb cc"></td>
+  <td data-variety-name="Midget White" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Auburn -->
+<tr>
+  <td class="variety-name">Mottled Auburn</td>
+  <td data-variety-name="Mottled Auburn" class="turkey-image male" data-genotype="bb cmcm ee"></td>
+  <td data-variety-name="Mottled Auburn" class="turkey-image female" data-genotype="bb cmcm e-"></td>
+  <td data-variety-name="Mottled Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Black -->
+<tr>
+  <td class="variety-name">Mottled Black</td>
+  <td data-variety-name="Mottled Black" class="turkey-image male" data-genotype="Bb1 cgcg nn"></td>
+  <td data-variety-name="Mottled Black" class="turkey-image female" data-genotype="Bb1 cgcg n-"></td>
+  <td data-variety-name="Mottled Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Black Tuxedo -->
+<tr>
+  <td class="variety-name">Mottled Black Tuxedo</td>
+  <td data-variety-name="Mottled Black Tuxedo" class="turkey-image male" data-genotype="Bb1 cmcm"></td>
+  <td data-variety-name="Mottled Black Tuxedo" class="turkey-image female" data-genotype="Bb1 cmcm"></td>
+  <td data-variety-name="Mottled Black Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Black Winged Bronze -->
+<tr>
+  <td class="variety-name">Mottled Black Winged Bronze</td>
+  <td data-variety-name="Mottled Black Winged Bronze" class="turkey-image male" data-genotype="b1b1 cmcm"></td>
+  <td data-variety-name="Mottled Black Winged Bronze" class="turkey-image female" data-genotype="b1b1 cmcm"></td>
+  <td data-variety-name="Mottled Black Winged Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Bronze -->
+<tr>
+  <td class="variety-name">Mottled Bronze</td>
+  <td data-variety-name="Mottled Bronze" class="turkey-image male" data-genotype="bb cmcm"></td>
+  <td data-variety-name="Mottled Bronze" class="turkey-image female" data-genotype="bb cmcm"></td>
+  <td data-variety-name="Mottled Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Brown Winged Auburn -->
+<tr>
+  <td class="variety-name">Mottled Brown Winged Auburn</td>
+  <td data-variety-name="Mottled Brown Winged Auburn" class="turkey-image male" data-genotype="b1b1 cmcm ee"></td>
+  <td data-variety-name="Mottled Brown Winged Auburn" class="turkey-image female" data-genotype="b1b1 cmcm e-"></td>
+  <td data-variety-name="Mottled Brown Winged Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Chocolate -->
+<tr>
+  <td class="variety-name">Mottled Chocolate</td>
+  <td data-variety-name="Mottled Chocolate" class="turkey-image male" data-genotype="Bb1 cgcg ee nn"></td>
+  <td data-variety-name="Mottled Chocolate" class="turkey-image female" data-genotype="Bb1 cgcg e- n-"></td>
+  <td data-variety-name="Mottled Chocolate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Chocolate Dapple -->
+<tr>
+  <td class="variety-name">Mottled Chocolate Dapple</td>
+  <td data-variety-name="Mottled Chocolate Dapple" class="turkey-image male" data-genotype="Bb1 cgc ee nn"></td>
+  <td data-variety-name="Mottled Chocolate Dapple" class="turkey-image female" data-genotype="Bb1 cgc e- n-"></td>
+  <td data-variety-name="Mottled Chocolate Dapple" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Dilute Rusty Black -->
+<tr>
+  <td class="variety-name">Mottled Dilute Rusty Black</td>
+  <td data-variety-name="Mottled Dilute Rusty Black" class="turkey-image male" data-genotype="Bb1 cgcg nn Rr"></td>
+  <td data-variety-name="Mottled Dilute Rusty Black" class="turkey-image female" data-genotype="Bb1 cgcg n- Rr"></td>
+  <td data-variety-name="Mottled Dilute Rusty Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Dilute Rusty Brown -->
+<tr>
+  <td class="variety-name">Mottled Dilute Rusty Brown</td>
+  <td data-variety-name="Mottled Dilute Rusty Brown" class="turkey-image male" data-genotype="Bb1 cgcg ee nn Rr"></td>
+  <td data-variety-name="Mottled Dilute Rusty Brown" class="turkey-image female" data-genotype="Bb1 cgcg e- n- Rr"></td>
+  <td data-variety-name="Mottled Dilute Rusty Brown" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Dilute Rusty Slate -->
+<tr>
+  <td class="variety-name">Mottled Dilute Rusty Slate</td>
+  <td data-variety-name="Mottled Dilute Rusty Slate" class="turkey-image male" data-genotype="Bb1 cgcg Dd nn Rr"></td>
+  <td data-variety-name="Mottled Dilute Rusty Slate" class="turkey-image female" data-genotype="Bb1 cgcg Dd n- Rr"></td>
+  <td data-variety-name="Mottled Dilute Rusty Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Lavender -->
+<tr>
+  <td class="variety-name">Mottled Lavender</td>
+  <td data-variety-name="Mottled Lavender" class="turkey-image male" data-genotype="Bb1 cgcg DD nn"></td>
+  <td data-variety-name="Mottled Lavender" class="turkey-image female" data-genotype="Bb1 cgcg DD n-"></td>
+  <td data-variety-name="Mottled Lavender" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Recessive Blue Tuxedo -->
+<tr>
+  <td class="variety-name">Mottled Recessive Blue Tuxedo</td>
+  <td data-variety-name="Mottled Recessive Blue Tuxedo" class="turkey-image male" data-genotype="Bb1 cmcm slsl"></td>
+  <td data-variety-name="Mottled Recessive Blue Tuxedo" class="turkey-image female" data-genotype="Bb1 cmcm slsl"></td>
+  <td data-variety-name="Mottled Recessive Blue Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Recessive Slate -->
+<tr>
+  <td class="variety-name">Mottled Recessive Slate</td>
+  <td data-variety-name="Mottled Recessive Slate" class="turkey-image male" data-genotype="bb cmcm slsl"></td>
+  <td data-variety-name="Mottled Recessive Slate" class="turkey-image female" data-genotype="bb cmcm slsl"></td>
+  <td data-variety-name="Mottled Recessive Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Red -->
+<tr>
+  <td class="variety-name">Mottled Red</td>
+  <td data-variety-name="Mottled Red" class="turkey-image male" data-genotype="bb cmcm rr"></td>
+  <td data-variety-name="Mottled Red" class="turkey-image female" data-genotype="bb cmcm rr"></td>
+  <td data-variety-name="Mottled Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Red Bronze -->
+<tr>
+  <td class="variety-name">Mottled Red Bronze</td>
+  <td data-variety-name="Mottled Red Bronze" class="turkey-image male" data-genotype="bb cmcm Rr"></td>
+  <td data-variety-name="Mottled Red Bronze" class="turkey-image female" data-genotype="bb cmcm Rr"></td>
+  <td data-variety-name="Mottled Red Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Red Slate -->
+<tr>
+  <td class="variety-name">Mottled Red Slate</td>
+  <td data-variety-name="Mottled Red Slate" class="turkey-image male" data-genotype="bb cmcm Dd"></td>
+  <td data-variety-name="Mottled Red Slate" class="turkey-image female" data-genotype="bb cmcm Dd"></td>
+  <td data-variety-name="Mottled Red Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Rusty Black -->
+<tr>
+  <td class="variety-name">Mottled Rusty Black</td>
+  <td data-variety-name="Mottled Rusty Black" class="turkey-image male" data-genotype="Bb1 cgcg Rr"></td>
+  <td data-variety-name="Mottled Rusty Black" class="turkey-image female" data-genotype="Bb1 cgcg Rr"></td>
+  <td data-variety-name="Mottled Rusty Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Rusty Brown -->
+<tr>
+  <td class="variety-name">Mottled Rusty Brown</td>
+  <td data-variety-name="Mottled Rusty Brown" class="turkey-image male" data-genotype="Bb1 cgcg ee Rr"></td>
+  <td data-variety-name="Mottled Rusty Brown" class="turkey-image female" data-genotype="Bb1 cgcg e- Rr"></td>
+  <td data-variety-name="Mottled Rusty Brown" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Rusty Slate -->
+<tr>
+  <td class="variety-name">Mottled Rusty Slate</td>
+  <td data-variety-name="Mottled Rusty Slate" class="turkey-image male" data-genotype="Bb1 cgcg Dd Rr"></td>
+  <td data-variety-name="Mottled Rusty Slate" class="turkey-image female" data-genotype="Bb1 cgcg Dd Rr"></td>
+  <td data-variety-name="Mottled Rusty Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Silver Dapple -->
+<tr>
+  <td class="variety-name">Mottled Silver Dapple</td>
+  <td data-variety-name="Mottled Silver Dapple" class="turkey-image male" data-genotype="Bb1 cgc nn"></td>
+  <td data-variety-name="Mottled Silver Dapple" class="turkey-image female" data-genotype="Bb1 cgc n-"></td>
+  <td data-variety-name="Mottled Silver Dapple" class="turkey-image poults"></td>
+</tr>
+
+<!-- Mottled Slate -->
+<tr>
+  <td class="variety-name">Mottled Slate</td>
+  <td data-variety-name="Mottled Slate" class="turkey-image male" data-genotype="Bb1 cgcg Dd nn"></td>
+  <td data-variety-name="Mottled Slate" class="turkey-image female" data-genotype="Bb1 cgcg Dd n-"></td>
+  <td data-variety-name="Mottled Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Narragansett -->
+<tr>
+  <td class="variety-name">Narragansett</td>
+  <td data-variety-name="Narragansett" class="turkey-image male" data-genotype="bb nn"></td>
+  <td data-variety-name="Narragansett" class="turkey-image female" data-genotype="bb n-"></td>
+  <td data-variety-name="Narragansett" class="turkey-image poults"></td>
+</tr>
+
+<!-- Nebraskan -->
+<tr>
+  <td class="variety-name">Nebraskan</td>
+  <td data-variety-name="Nebraskan" class="turkey-image male" data-genotype="bb spsp"></td>
+  <td data-variety-name="Nebraskan" class="turkey-image female" data-genotype="bb spsp"></td>
+  <td data-variety-name="Nebraskan" class="turkey-image poults"></td>
+</tr>
+
+<!-- Oregon Blue -->
+<tr>
+  <td class="variety-name">Oregon Blue</td>
+  <td data-variety-name="Oregon Blue" class="turkey-image male" data-genotype="bb cgc Dd nn"></td>
+  <td data-variety-name="Oregon Blue" class="turkey-image female" data-genotype="bb cgc Dd n-"></td>
+  <td data-variety-name="Oregon Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Oregon Brown -->
+<tr>
+  <td class="variety-name">Oregon Brown</td>
+  <td data-variety-name="Oregon Brown" class="turkey-image male" data-genotype="bb cgc ee nn"></td>
+  <td data-variety-name="Oregon Brown" class="turkey-image female" data-genotype="bb cgc e- n-"></td>
+  <td data-variety-name="Oregon Brown" class="turkey-image poults"></td>
+</tr>
+
+<!-- Oregon Gray -->
+<tr>
+  <td class="variety-name">Oregon Gray</td>
+  <td data-variety-name="Oregon Gray" class="turkey-image male" data-genotype="bb cgc nn"></td>
+  <td data-variety-name="Oregon Gray" class="turkey-image female" data-genotype="bb cgc n-"></td>
+  <td data-variety-name="Oregon Gray" class="turkey-image poults"></td>
+</tr>
+
+<!-- Oregon Lavender Blue -->
+<tr>
+  <td class="variety-name">Oregon Lavender Blue</td>
+  <td data-variety-name="Oregon Lavender Blue" class="turkey-image male" data-genotype="bb cgc DD nn"></td>
+  <td data-variety-name="Oregon Lavender Blue" class="turkey-image female" data-genotype="bb cgc DD n-"></td>
+  <td data-variety-name="Oregon Lavender Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Oregon Red -->
+<tr>
+  <td class="variety-name">Oregon Red</td>
+  <td data-variety-name="Oregon Red" class="turkey-image male" data-genotype="bb cgc nn rr"></td>
+  <td data-variety-name="Oregon Red" class="turkey-image female" data-genotype="bb cgc n- rr"></td>
+  <td data-variety-name="Oregon Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Painted (Split Black Winged Bronze) -->
+<tr>
+  <td class="variety-name">Painted (Split Black Winged Bronze)</td>
+  <td data-variety-name="Painted (Split Black Winged Bronze)" class="turkey-image male" data-genotype="Bb1 cmc"></td>
+  <td data-variety-name="Painted (Split Black Winged Bronze)" class="turkey-image female" data-genotype="Bb1 cmc"></td>
+  <td data-variety-name="Painted (Split Black Winged Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Painted (Split Bronze) -->
+<tr>
+  <td class="variety-name">Painted (Split Bronze)</td>
+  <td data-variety-name="Painted (Split Bronze)" class="turkey-image male" data-genotype="Bb cmc"></td>
+  <td data-variety-name="Painted (Split Bronze)" class="turkey-image female" data-genotype="Bb cmc"></td>
+  <td data-variety-name="Painted (Split Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Black Winged Bronze -->
+<tr>
+  <td class="variety-name">Pencilled Black Winged Bronze</td>
+  <td data-variety-name="Pencilled Black Winged Bronze" class="turkey-image male" data-genotype="b1b1 pnpn"></td>
+  <td data-variety-name="Pencilled Black Winged Bronze" class="turkey-image female" data-genotype="b1b1 pnpn"></td>
+  <td data-variety-name="Pencilled Black Winged Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Blue Fall Fire -->
+<tr>
+  <td class="variety-name">Pencilled Blue Fall Fire</td>
+  <td data-variety-name="Pencilled Blue Fall Fire" class="turkey-image male" data-genotype="b1b1 cgcg Dd pnpn Rr"></td>
+  <td data-variety-name="Pencilled Blue Fall Fire" class="turkey-image female" data-genotype="b1b1 cgcg Dd pnpn Rr"></td>
+  <td data-variety-name="Pencilled Blue Fall Fire" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Blue Palm -->
+<tr>
+  <td class="variety-name">Pencilled Blue Palm</td>
+  <td data-variety-name="Pencilled Blue Palm" class="turkey-image male" data-genotype="b1b1 cgcg Dd nn pnpn"></td>
+  <td data-variety-name="Pencilled Blue Palm" class="turkey-image female" data-genotype="b1b1 cgcg Dd n- pnpn"></td>
+  <td data-variety-name="Pencilled Blue Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Blue Sweetgrass -->
+<tr>
+  <td class="variety-name">Pencilled Blue Sweetgrass</td>
+  <td data-variety-name="Pencilled Blue Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg Dd pnpn"></td>
+  <td data-variety-name="Pencilled Blue Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg Dd pnpn"></td>
+  <td data-variety-name="Pencilled Blue Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Chocolate Palm -->
+<tr>
+  <td class="variety-name">Pencilled Chocolate Palm</td>
+  <td data-variety-name="Pencilled Chocolate Palm" class="turkey-image male" data-genotype="b1b1 cgcg ee nn pnpn"></td>
+  <td data-variety-name="Pencilled Chocolate Palm" class="turkey-image female" data-genotype="b1b1 cgcg e- n- pnpn"></td>
+  <td data-variety-name="Pencilled Chocolate Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Fall Fire -->
+<tr>
+  <td class="variety-name">Pencilled Fall Fire</td>
+  <td data-variety-name="Pencilled Fall Fire" class="turkey-image male" data-genotype="b1b1 cgcg pnpn Rr"></td>
+  <td data-variety-name="Pencilled Fall Fire" class="turkey-image female" data-genotype="b1b1 cgcg pnpn Rr"></td>
+  <td data-variety-name="Pencilled Fall Fire" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Lavender Fall Fire -->
+<tr>
+  <td class="variety-name">Pencilled Lavender Fall Fire</td>
+  <td data-variety-name="Pencilled Lavender Fall Fire" class="turkey-image male" data-genotype="b1b1 cgcg DD Rr"></td>
+  <td data-variety-name="Pencilled Lavender Fall Fire" class="turkey-image female" data-genotype="b1b1 cgcg DD Rr"></td>
+  <td data-variety-name="Pencilled Lavender Fall Fire" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Lavender Sweetgrass -->
+<tr>
+  <td class="variety-name">Pencilled Lavender Sweetgrass</td>
+  <td data-variety-name="Pencilled Lavender Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg DD pnpn"></td>
+  <td data-variety-name="Pencilled Lavender Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg DD pnpn"></td>
+  <td data-variety-name="Pencilled Lavender Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Light Red -->
+<tr>
+  <td class="variety-name">Pencilled Light Red</td>
+  <td data-variety-name="Pencilled Light Red" class="turkey-image male" data-genotype="b1b1 Ccg pnpn rr"></td>
+  <td data-variety-name="Pencilled Light Red" class="turkey-image female" data-genotype="b1b1 Ccg pnpn rr"></td>
+  <td data-variety-name="Pencilled Light Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Mottled Brown Winged Auburn -->
+<tr>
+  <td class="variety-name">Pencilled Mottled Brown Winged Auburn</td>
+  <td data-variety-name="Pencilled Mottled Brown Winged Auburn" class="turkey-image male" data-genotype="b1b1 cmcm ee pnpn"></td>
+  <td data-variety-name="Pencilled Mottled Brown Winged Auburn" class="turkey-image female" data-genotype="b1b1 cmcm e- pnpn"></td>
+  <td data-variety-name="Pencilled Mottled Brown Winged Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Palm -->
+<tr>
+  <td class="variety-name">Pencilled Palm</td>
+  <td data-variety-name="Pencilled Palm" class="turkey-image male" data-genotype="b1b1 cgcg nn pnpn"></td>
+  <td data-variety-name="Pencilled Palm" class="turkey-image female" data-genotype="b1b1 cgcg n- pnpn"></td>
+  <td data-variety-name="Pencilled Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Red Palm -->
+<tr>
+  <td class="variety-name">Pencilled Red Palm</td>
+  <td data-variety-name="Pencilled Red Palm" class="turkey-image male" data-genotype="b1b1 cgcg nn pnpn rr"></td>
+  <td data-variety-name="Pencilled Red Palm" class="turkey-image female" data-genotype="b1b1 cgcg n- pnpn rr"></td>
+  <td data-variety-name="Pencilled Red Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Red Sweetgrass -->
+<tr>
+  <td class="variety-name">Pencilled Red Sweetgrass</td>
+  <td data-variety-name="Pencilled Red Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg pnpn rr"></td>
+  <td data-variety-name="Pencilled Red Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg pnpn rr"></td>
+  <td data-variety-name="Pencilled Red Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Slate Edged Red Sweetgrass -->
+<tr>
+  <td class="variety-name">Pencilled Slate Edged Red Sweetgrass</td>
+  <td data-variety-name="Pencilled Slate Edged Red Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg Dd pnpn rr"></td>
+  <td data-variety-name="Pencilled Slate Edged Red Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg Dd pnpn rr"></td>
+  <td data-variety-name="Pencilled Slate Edged Red Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Pencilled Sweetgrass -->
+<tr>
+  <td class="variety-name">Pencilled Sweetgrass</td>
+  <td data-variety-name="Pencilled Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg pnpn"></td>
+  <td data-variety-name="Pencilled Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg pnpn"></td>
+  <td data-variety-name="Pencilled Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Blue Fawn -->
+<tr>
+  <td class="variety-name">Recessive Blue Fawn</td>
+  <td data-variety-name="Recessive Blue Fawn" class="turkey-image male" data-genotype="bb cmc slsl"></td>
+  <td data-variety-name="Recessive Blue Fawn" class="turkey-image female" data-genotype="bb cmc slsl"></td>
+  <td data-variety-name="Recessive Blue Fawn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Blue Narragansett -->
+<tr>
+  <td class="variety-name">Recessive Blue Narragansett</td>
+  <td data-variety-name="Recessive Blue Narragansett" class="turkey-image male" data-genotype="bb nn slsl"></td>
+  <td data-variety-name="Recessive Blue Narragansett" class="turkey-image female" data-genotype="bb n- slsl"></td>
+  <td data-variety-name="Recessive Blue Narragansett" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Blue Painted (Split Black Winged Bronze) -->
+<tr>
+  <td class="variety-name">Recessive Blue Painted (Split Black Winged Bronze)</td>
+  <td data-variety-name="Recessive Blue Painted (Split Black Winged Bronze)" class="turkey-image male" data-genotype="Bb1 cmc slsl"></td>
+  <td data-variety-name="Recessive Blue Painted (Split Black Winged Bronze)" class="turkey-image female" data-genotype="Bb1 cmc slsl"></td>
+  <td data-variety-name="Recessive Blue Painted (Split Black Winged Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Blue Painted (Split Bronze) -->
+<tr>
+  <td class="variety-name">Recessive Blue Painted (Split Bronze)</td>
+  <td data-variety-name="Recessive Blue Painted (Split Bronze)" class="turkey-image male" data-genotype="Bb cmc slsl"></td>
+  <td data-variety-name="Recessive Blue Painted (Split Bronze)" class="turkey-image female" data-genotype="Bb cmc slsl"></td>
+  <td data-variety-name="Recessive Blue Painted (Split Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Blue Sweetgrass -->
+<tr>
+  <td class="variety-name">Recessive Blue Sweetgrass</td>
+  <td data-variety-name="Recessive Blue Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg slsl"></td>
+  <td data-variety-name="Recessive Blue Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg slsl"></td>
+  <td data-variety-name="Recessive Blue Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Blue Tuxedo -->
+<tr>
+  <td class="variety-name">Recessive Blue Tuxedo</td>
+  <td data-variety-name="Recessive Blue Tuxedo" class="turkey-image male" data-genotype="BB cmcm slsl"></td>
+  <td data-variety-name="Recessive Blue Tuxedo" class="turkey-image female" data-genotype="BB cmcm slsl"></td>
+  <td data-variety-name="Recessive Blue Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Lilac -->
+<tr>
+  <td class="variety-name">Recessive Lilac</td>
+  <td data-variety-name="Recessive Lilac" class="turkey-image male" data-genotype="bb rr slsl"></td>
+  <td data-variety-name="Recessive Lilac" class="turkey-image female" data-genotype="bb rr slsl"></td>
+  <td data-variety-name="Recessive Lilac" class="turkey-image poults"></td>
+</tr>
+
+<!-- Recessive Slate -->
+<tr>
+  <td class="variety-name">Recessive Slate</td>
+  <td data-variety-name="Recessive Slate" class="turkey-image male" data-genotype="bb slsl"></td>
+  <td data-variety-name="Recessive Slate" class="turkey-image female" data-genotype="bb slsl"></td>
+  <td data-variety-name="Recessive Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Auburn -->
+<tr>
+  <td class="variety-name">Red Auburn</td>
+  <td data-variety-name="Red Auburn" class="turkey-image male" data-genotype="bb ee Rr"></td>
+  <td data-variety-name="Red Auburn" class="turkey-image female" data-genotype="bb e- Rr"></td>
+  <td data-variety-name="Red Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Bronze -->
+<tr>
+  <td class="variety-name">Red Bronze</td>
+  <td data-variety-name="Red Bronze" class="turkey-image male" data-genotype="bb Rr"></td>
+  <td data-variety-name="Red Bronze" class="turkey-image female" data-genotype="bb Rr"></td>
+  <td data-variety-name="Red Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Fawn -->
+<tr>
+  <td class="variety-name">Red Fawn</td>
+  <td data-variety-name="Red Fawn" class="turkey-image male" data-genotype="bb cmc rr"></td>
+  <td data-variety-name="Red Fawn" class="turkey-image female" data-genotype="bb cmc rr"></td>
+  <td data-variety-name="Red Fawn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Lilac -->
+<tr>
+  <td class="variety-name">Red Lilac</td>
+  <td data-variety-name="Red Lilac" class="turkey-image male" data-genotype="BB rr slsl"></td>
+  <td data-variety-name="Red Lilac" class="turkey-image female" data-genotype="BB rr slsl"></td>
+  <td data-variety-name="Red Lilac" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Palm -->
+<tr>
+  <td class="variety-name">Red Palm</td>
+  <td data-variety-name="Red Palm" class="turkey-image male" data-genotype="b1b1 cgcg nn rr"></td>
+  <td data-variety-name="Red Palm" class="turkey-image female" data-genotype="b1b1 cgcg n- rr"></td>
+  <td data-variety-name="Red Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Phoenix -->
+<tr>
+  <td class="variety-name">Red Phoenix</td>
+  <td data-variety-name="Red Phoenix" class="turkey-image male" data-genotype="b1b1 Ccg Rr"></td>
+  <td data-variety-name="Red Phoenix" class="turkey-image female" data-genotype="b1b1 Ccg Rr"></td>
+  <td data-variety-name="Red Phoenix" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Recessive Slate -->
+<tr>
+  <td class="variety-name">Red Recessive Slate</td>
+  <td data-variety-name="Red Recessive Slate" class="turkey-image male" data-genotype="bb Rr slsl"></td>
+  <td data-variety-name="Red Recessive Slate" class="turkey-image female" data-genotype="bb Rr slsl"></td>
+  <td data-variety-name="Red Recessive Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Slate -->
+<tr>
+  <td class="variety-name">Red Slate</td>
+  <td data-variety-name="Red Slate" class="turkey-image male" data-genotype="bb Dd"></td>
+  <td data-variety-name="Red Slate" class="turkey-image female" data-genotype="bb Dd"></td>
+  <td data-variety-name="Red Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Sweetgrass -->
+<tr>
+  <td class="variety-name">Red Sweetgrass</td>
+  <td data-variety-name="Red Sweetgrass" class="turkey-image male" data-genotype="b1b1 cgcg rr"></td>
+  <td data-variety-name="Red Sweetgrass" class="turkey-image female" data-genotype="b1b1 cgcg rr"></td>
+  <td data-variety-name="Red Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Red Tuxedo -->
+<tr>
+  <td class="variety-name">Red Tuxedo</td>
+  <td data-variety-name="Red Tuxedo" class="turkey-image male" data-genotype="BB cmcm rr"></td>
+  <td data-variety-name="Red Tuxedo" class="turkey-image female" data-genotype="BB cmcm rr"></td>
+  <td data-variety-name="Red Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Regal Red -->
+<tr>
+  <td class="variety-name">Regal Red</td>
+  <td data-variety-name="Regal Red" class="turkey-image male" data-genotype="b1b1 rr"></td>
+  <td data-variety-name="Regal Red" class="turkey-image female" data-genotype="b1b1 rr"></td>
+  <td data-variety-name="Regal Red" class="turkey-image poults"></td>
+</tr>
+
+<!-- Royal Palm -->
+<tr>
+  <td class="variety-name">Royal Palm</td>
+  <td data-variety-name="Royal Palm" class="turkey-image male" data-genotype="b1b1 cgcg nn"></td>
+  <td data-variety-name="Royal Palm" class="turkey-image female" data-genotype="b1b1 cgcg n-"></td>
+  <td data-variety-name="Royal Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Black -->
+<tr>
+  <td class="variety-name">Rusty Black</td>
+  <td data-variety-name="Rusty Black" class="turkey-image male" data-genotype="Bb Rr"></td>
+  <td data-variety-name="Rusty Black" class="turkey-image female" data-genotype="Bb Rr"></td>
+  <td data-variety-name="Rusty Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Brown -->
+<tr>
+  <td class="variety-name">Rusty Brown</td>
+  <td data-variety-name="Rusty Brown" class="turkey-image male" data-genotype="Bb ee Rr"></td>
+  <td data-variety-name="Rusty Brown" class="turkey-image female" data-genotype="Bb e- Rr"></td>
+  <td data-variety-name="Rusty Brown" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Painted (Split Black Winged Bronze) -->
+<tr>
+  <td class="variety-name">Rusty Painted (Split Black Winged Bronze)</td>
+  <td data-variety-name="Rusty Painted (Split Black Winged Bronze)" class="turkey-image male" data-genotype="Bb1 cmc Rr"></td>
+  <td data-variety-name="Rusty Painted (Split Black Winged Bronze)" class="turkey-image female" data-genotype="Bb1 cmc Rr"></td>
+  <td data-variety-name="Rusty Painted (Split Black Winged Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Painted (Split Bronze) -->
+<tr>
+  <td class="variety-name">Rusty Painted (Split Bronze)</td>
+  <td data-variety-name="Rusty Painted (Split Bronze)" class="turkey-image male" data-genotype="Bb cmc Rr"></td>
+  <td data-variety-name="Rusty Painted (Split Bronze)" class="turkey-image female" data-genotype="Bb cmc Rr"></td>
+  <td data-variety-name="Rusty Painted (Split Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Recessive Blue -->
+<tr>
+  <td class="variety-name">Rusty Recessive Blue</td>
+  <td data-variety-name="Rusty Recessive Blue" class="turkey-image male" data-genotype="Bb Rr slsl"></td>
+  <td data-variety-name="Rusty Recessive Blue" class="turkey-image female" data-genotype="Bb Rr slsl"></td>
+  <td data-variety-name="Rusty Recessive Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Slate -->
+<tr>
+  <td class="variety-name">Rusty Slate</td>
+  <td data-variety-name="Rusty Slate" class="turkey-image male" data-genotype="Bb Dd Rr"></td>
+  <td data-variety-name="Rusty Slate" class="turkey-image female" data-genotype="Bb Dd Rr"></td>
+  <td data-variety-name="Rusty Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Slate Painted (Split Black Winged Bronze) -->
+<tr>
+  <td class="variety-name">Rusty Slate Painted (Split Black Winged Bronze)</td>
+  <td data-variety-name="Rusty Slate Painted (Split Black Winged Bronze)" class="turkey-image male" data-genotype="Bb1 cmc Dd Rr"></td>
+  <td data-variety-name="Rusty Slate Painted (Split Black Winged Bronze)" class="turkey-image female" data-genotype="Bb1 cmc Dd Rr"></td>
+  <td data-variety-name="Rusty Slate Painted (Split Black Winged Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Slate Painted (Split Bronze) -->
+<tr>
+  <td class="variety-name">Rusty Slate Painted (Split Bronze)</td>
+  <td data-variety-name="Rusty Slate Painted (Split Bronze)" class="turkey-image male" data-genotype="Bb cmc Dd Rr"></td>
+  <td data-variety-name="Rusty Slate Painted (Split Bronze)" class="turkey-image female" data-genotype="Bb cmc Dd Rr"></td>
+  <td data-variety-name="Rusty Slate Painted (Split Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Slate Tuxedo -->
+<tr>
+  <td class="variety-name">Rusty Slate Tuxedo</td>
+  <td data-variety-name="Rusty Slate Tuxedo" class="turkey-image male" data-genotype="Bb cmcm Dd Rr"></td>
+  <td data-variety-name="Rusty Slate Tuxedo" class="turkey-image female" data-genotype="Bb cmcm Dd Rr"></td>
+  <td data-variety-name="Rusty Slate Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Rusty Tuxedo -->
+<tr>
+  <td class="variety-name">Rusty Tuxedo</td>
+  <td data-variety-name="Rusty Tuxedo" class="turkey-image male" data-genotype="Bb cmcm Rr"></td>
+  <td data-variety-name="Rusty Tuxedo" class="turkey-image female" data-genotype="Bb cmcm Rr"></td>
+  <td data-variety-name="Rusty Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Self Buff -->
+<tr>
+  <td class="variety-name">Self Buff</td>
+  <td data-variety-name="Self Buff" class="turkey-image male" data-genotype="b1b1 ee nn rr"></td>
+  <td data-variety-name="Self Buff" class="turkey-image female" data-genotype="b1b1 e- n- rr"></td>
+  <td data-variety-name="Self Buff" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Auburn -->
+<tr>
+  <td class="variety-name">Silver Auburn</td>
+  <td data-variety-name="Silver Auburn" class="turkey-image male" data-genotype="bb ee nn"></td>
+  <td data-variety-name="Silver Auburn" class="turkey-image female" data-genotype="bb e- n-"></td>
+  <td data-variety-name="Silver Auburn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Dapple -->
+<tr>
+  <td class="variety-name">Silver Dapple</td>
+  <td data-variety-name="Silver Dapple" class="turkey-image male" data-genotype="Bb cgc nn"></td>
+  <td data-variety-name="Silver Dapple" class="turkey-image female" data-genotype="Bb cgc n-"></td>
+  <td data-variety-name="Silver Dapple" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Palm -->
+<tr>
+  <td class="variety-name">Silver Palm</td>
+  <td data-variety-name="Silver Palm" class="turkey-image male" data-genotype="b1b1 cgc nn"></td>
+  <td data-variety-name="Silver Palm" class="turkey-image female" data-genotype="b1b1 cgc n-"></td>
+  <td data-variety-name="Silver Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Tipped Barred Black -->
+<tr>
+  <td class="variety-name">Silver Tipped Barred Black</td>
+  <td data-variety-name="Silver Tipped Barred Black" class="turkey-image male" data-genotype="Bb nn"></td>
+  <td data-variety-name="Silver Tipped Barred Black" class="turkey-image female" data-genotype="Bb n-"></td>
+  <td data-variety-name="Silver Tipped Barred Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Tipped Barred Lavender -->
+<tr>
+  <td class="variety-name">Silver Tipped Barred Lavender</td>
+  <td data-variety-name="Silver Tipped Barred Lavender" class="turkey-image male" data-genotype="Bb DD nn"></td>
+  <td data-variety-name="Silver Tipped Barred Lavender" class="turkey-image female" data-genotype="Bb DD n-"></td>
+  <td data-variety-name="Silver Tipped Barred Lavender" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Tipped Black -->
+<tr>
+  <td class="variety-name">Silver Tipped Black</td>
+  <td data-variety-name="Silver Tipped Black" class="turkey-image male" data-genotype="BB nn"></td>
+  <td data-variety-name="Silver Tipped Black" class="turkey-image female" data-genotype="BB n-"></td>
+  <td data-variety-name="Silver Tipped Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Tipped Lavender -->
+<tr>
+  <td class="variety-name">Silver Tipped Lavender</td>
+  <td data-variety-name="Silver Tipped Lavender" class="turkey-image male" data-genotype="BB DD nn"></td>
+  <td data-variety-name="Silver Tipped Lavender" class="turkey-image female" data-genotype="BB DD n-"></td>
+  <td data-variety-name="Silver Tipped Lavender" class="turkey-image poults"></td>
+</tr>
+
+<!-- Silver Tipped Slate -->
+<tr>
+  <td class="variety-name">Silver Tipped Slate</td>
+  <td data-variety-name="Silver Tipped Slate" class="turkey-image male" data-genotype="BB Dd nn"></td>
+  <td data-variety-name="Silver Tipped Slate" class="turkey-image female" data-genotype="BB Dd n-"></td>
+  <td data-variety-name="Silver Tipped Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Slate -->
+<tr>
+  <td class="variety-name">Slate</td>
+  <td data-variety-name="Slate" class="turkey-image male" data-genotype="BB Dd"></td>
+  <td data-variety-name="Slate" class="turkey-image female" data-genotype="BB Dd"></td>
+  <td data-variety-name="Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Slate Edged Bourbon Red -->
+  <tr>
+    <td class="variety-name">Slate Edged Bourbon Red</td>
+    <td data-variety-name="Slate Edged Bourbon Red" class="turkey-image male" data-genotype="bb Dd rr"></td>
+    <td data-variety-name="Slate Edged Bourbon Red" class="turkey-image female" data-genotype="bb Dd rr"></td>
+    <td data-variety-name="Slate Edged Bourbon Red" class="turkey-image poults"></td>
+  </tr>
+
+<!-- Slate Fawn -->
+<tr>
+  <td class="variety-name">Slate Fawn</td>
+  <td data-variety-name="Slate Fawn" class="turkey-image male" data-genotype="bb cmc Dd"></td>
+  <td data-variety-name="Slate Fawn" class="turkey-image female" data-genotype="bb cmc Dd"></td>
+  <td data-variety-name="Slate Fawn" class="turkey-image poults"></td>
+</tr>
+
+<!-- Slate Painted (Split Black Winged Bronze) -->
+<tr>
+  <td class="variety-name">Slate Painted (Split Black Winged Bronze)</td>
+  <td data-variety-name="Slate Painted (Split Black Winged Bronze)" class="turkey-image male" data-genotype="Bb1 cmc Dd"></td>
+  <td data-variety-name="Slate Painted (Split Black Winged Bronze)" class="turkey-image female" data-genotype="Bb1 cmc Dd"></td>
+  <td data-variety-name="Slate Painted (Split Black Winged Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Slate Painted (Split Bronze) -->
+<tr>
+  <td class="variety-name">Slate Painted (Split Bronze)</td>
+  <td data-variety-name="Slate Painted (Split Bronze)" class="turkey-image male" data-genotype="Bb cmc Dd"></td>
+  <td data-variety-name="Slate Painted (Split Bronze)" class="turkey-image female" data-genotype="Bb cmc Dd"></td>
+  <td data-variety-name="Slate Painted (Split Bronze)" class="turkey-image poults"></td>
+</tr>
+
+<!-- Slate Tuxedo -->
+<tr>
+  <td class="variety-name">Slate Tuxedo</td>
+  <td data-variety-name="Slate Tuxedo" class="turkey-image male" data-genotype="BB cmcm Dd"></td>
+  <td data-variety-name="Slate Tuxedo" class="turkey-image female" data-genotype="BB cmcm Dd"></td>
+  <td data-variety-name="Slate Tuxedo" class="turkey-image poults"></td>
+</tr>
+
+<!-- Sweetgrass -->
+<tr>
+  <td class="variety-name">Sweetgrass</td>
+  <td data-variety-name="Sweetgrass" class="turkey-image male" data-genotype=" b1b1 cgcg"></td>
+  <td data-variety-name="Sweetgrass" class="turkey-image female" data-genotype=" b1b1 cgcg"></td>
+  <td data-variety-name="Sweetgrass" class="turkey-image poults"></td>
+</tr>
+
+<!-- Tiger Bronze -->
+<tr>
+  <td class="variety-name">Tiger Bronze</td>
+  <td data-variety-name="Tiger Bronze" class="turkey-image male" data-genotype="b1b1 Ccg pnpn"></td>
+  <td data-variety-name="Tiger Bronze" class="turkey-image female" data-genotype="b1b1 Ccg pnpn"></td>
+  <td data-variety-name="Tiger Bronze" class="turkey-image poults"></td>
+</tr>
+
+<!-- Tiger Blue -->
+<tr>
+  <td class="variety-name">Tiger Blue</td>
+  <td data-variety-name="Tiger Blue" class="turkey-image male" data-genotype="b1b1 Ccg Dd pnpn"></td>
+  <td data-variety-name="Tiger Blue" class="turkey-image female" data-genotype="b1b1 Ccg Dd pnpn"></td>
+  <td data-variety-name="Tiger Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Tiger Lavender Blue -->
+<tr>
+  <td class="variety-name">Tiger Lavender Blue</td>
+  <td data-variety-name="Tiger Lavender Blue" class="turkey-image male" data-genotype="b1b1 Ccg DD pnpn"></td>
+  <td data-variety-name="Tiger Lavender Blue" class="turkey-image female" data-genotype="b1b1 Ccg DD pnpn"></td>
+  <td data-variety-name="Tiger Lavender Blue" class="turkey-image poults"></td>
+</tr>
+
+<!-- Tri-color Mottled Black -->
+<tr>
+  <td class="variety-name">Tri-color Mottled Black</td>
+  <td data-variety-name="Tri-color Mottled Black" class="turkey-image male" data-genotype="Bb1 cgcg"></td>
+  <td data-variety-name="Tri-color Mottled Black" class="turkey-image female" data-genotype="Bb1 cgcg"></td>
+  <td data-variety-name="Tri-color Mottled Black" class="turkey-image poults"></td>
+</tr>
+
+<!-- Tri-color Mottled Slate -->
+<tr>
+  <td class="variety-name">Tri-color Mottled Slate</td>
+  <td data-variety-name="Tri-color Mottled Slate" class="turkey-image male" data-genotype="Bb1 cgcg Dd"></td>
+  <td data-variety-name="Tri-color Mottled Slate" class="turkey-image female" data-genotype="Bb1 cgcg Dd"></td>
+  <td data-variety-name="Tri-color Mottled Slate" class="turkey-image poults"></td>
+</tr>
+
+<!-- Tri-color Pencilled Blue Palm -->
+<tr>
+  <td class="variety-name">Tri-color Pencilled Blue Palm</td>
+  <td data-variety-name="Tri-color Pencilled Blue Palm" class="turkey-image male" data-genotype="b1b1 cgcg Dd nn pnpn Rr"></td>
+  <td data-variety-name="Tri-color Pencilled Blue Palm" class="turkey-image female" data-genotype="b1b1 cgcg Dd n- pnpn Rr"></td>
+  <td data-variety-name="Tri-color Pencilled Blue Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- Tri-color Pencilled Palm -->
+<tr>
+  <td class="variety-name">Tri-color Pencilled Palm</td>
+  <td data-variety-name="Tri-color Pencilled Palm" class="turkey-image male" data-genotype="b1b1 cgcg nn pnpn Rr"></td>
+  <td data-variety-name="Tri-color Pencilled Palm" class="turkey-image female" data-genotype="b1b1 cgcg n- pnpn Rr"></td>
+  <td data-variety-name="Tri-color Pencilled Palm" class="turkey-image poults"></td>
+</tr>
+
+<!-- White (Blue Eyes) -->
+<tr>
+  <td class="variety-name">White (Blue Eyes)</td>
+  <td data-variety-name="White (Blue Eyes)" class="turkey-image male" data-genotype="BB cc"></td>
+  <td data-variety-name="White (Blue Eyes)" class="turkey-image female" data-genotype="BB cc"></td>
+  <td data-variety-name="White (Blue Eyes)" class="turkey-image poults"></td>
+</tr>
+
+<!-- White (Dark Brown Eyes) -->
+<tr>
+  <td class="variety-name">White (Dark Brown Eyes)</td>
+  <td data-variety-name="White (Dark Brown Eyes)" class="turkey-image male" data-genotype="bb cc"></td>
+  <td data-variety-name="White (Dark Brown Eyes)" class="turkey-image female" data-genotype="bb cc"></td>
+  <td data-variety-name="White (Dark Brown Eyes)" class="turkey-image poults"></td>
+</tr>
+
+<!-- White (Light Brown Eyes) -->
+<tr>
+  <td class="variety-name">White (Light Brown Eyes)</td>
+  <td data-variety-name="White (Light Brown Eyes)" class="turkey-image male" data-genotype="b1b1 cc"></td>
+  <td data-variety-name="White (Light Brown Eyes)" class="turkey-image female" data-genotype="b1b1 cc"></td>
+  <td data-variety-name="White (Light Brown Eyes)" class="turkey-image poults"></td>
+</tr>
+
+<!-- White Holland -->
+<tr>
+  <td class="variety-name">White Holland</td>
+  <td data-variety-name="White Holland" class="turkey-image male" data-genotype="bb cc"></td>
+  <td data-variety-name="White Holland" class="turkey-image female" data-genotype="bb cc"></td>
+  <td data-variety-name="White Holland" class="turkey-image poults"></td>
+</tr>
+
+<!-- White Winged Chocolate Fawn -->
+<tr>
+  <td class="variety-name">White Winged Chocolate Fawn</td>
+  <td data-variety-name="White Winged Chocolate Fawn" class="turkey-image male" data-genotype="b1b1 cmc ee"></td>
+  <td data-variety-name="White Winged Chocolate Fawn" class="turkey-image female" data-genotype="b1b1 cmc e-"></td>
+  <td data-variety-name="White Winged Chocolate Fawn" class="turkey-image poults"></td>
+</tr>
+
+<!-- White Winged Fawn -->
+<tr>
+  <td class="variety-name">White Winged Fawn</td>
+  <td data-variety-name="White Winged Fawn" class="turkey-image male" data-genotype="b1b1 cmc"></td>
+  <td data-variety-name="White Winged Fawn" class="turkey-image female" data-genotype="b1b1 cmc"></td>
+  <td data-variety-name="White Winged Fawn" class="turkey-image poults"></td>
+</tr>
+
+
+
+      </tbody>
+    </table>
+</div>
+
+<button id="returnToTop" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #1E82E6; color: white; border: none; border-radius: 5px; cursor: pointer; display: none;">Return to Top</button>
+
+<script>
+// Show the button when the user scrolls down 100px from the top of the document
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    const returnToTopButton = document.getElementById("returnToTop");
+    if (document.body.scrollTop > 3000 || document.documentElement.scrollTop > 3000) {
+        returnToTopButton.style.display = "block";
+    } else {
+        returnToTopButton.style.display = "none";
+    }
+}
+
+// Scroll smoothly back to the top when the button is clicked
+document.getElementById("returnToTop").addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
+
+
+
+
+
+
+</script>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const baseUrl = 'https://porters-rare-heritage-turkeys.neocities.org/Pictures/';
+
+    document.querySelectorAll('.turkey-image').forEach(function(el) {
+        const varietyName = el.getAttribute('data-variety-name').replace(/\s/g, '');
+        const genderPrefix = el.classList.contains('male') ? 'M' : el.classList.contains('female') ? 'F' : 'P'; // P for poults
+        const imageUrl = baseUrl + genderPrefix + varietyName + '.jpg';
+        const genotype = el.getAttribute('data-genotype');
+
+        // Create an image and attempt to load it
+        const imgElement = new Image();
+        imgElement.onload = function() {
+            el.appendChild(imgElement); // Image loads successfully
+            appendText(el, genotype, true); // Append genotype next to image
+        };
+        imgElement.onerror = function() {
+            appendText(el, 'Image to come ', false); // Show placeholder text
+            appendText(el, genotype, true); // Always display genotype
+        };
+        imgElement.src = imageUrl;
+        imgElement.alt = 'Turkey Image';
+        imgElement.style.cursor = 'pointer';
+        imgElement.onclick = function() { window.open(imageUrl, '_blank'); };
+    });
+
+    function appendText(element, text, isGenotype) {
+        // Create a span for text
+        const textSpan = document.createElement('span');
+        textSpan.textContent = text;
+        if (isGenotype) {
+            textSpan.classList.add('genotype'); // Apply genotype styling if it is a genotype
+        }
+        element.appendChild(textSpan);
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Existing code for loading images...
+
+    // Populate the dropdown with varieties
+    const varietySet = new Set();
+    document.querySelectorAll('.variety-name').forEach(function(el) {
+        varietySet.add(el.textContent);
+    });
+
+    const varietySelector = document.getElementById('varietySelector');
+    varietySet.forEach(variety => {
+        const option = document.createElement('option');
+        option.value = variety;
+        option.textContent = variety;
+        varietySelector.appendChild(option);
+    });
+
+   // Function to filter table rows based on selected variety
+varietySelector.addEventListener('change', function () {
+    const selectedVariety = this.value;
+
+    document.querySelectorAll('tr').forEach(function (row) {
+        if (row.querySelector('.variety-name')) {
+            if (selectedVariety === '' || row.querySelector('.variety-name').textContent === selectedVariety) {
+                row.style.display = '';  // Show row
+            } else {
+                row.style.display = 'none';  // Hide row
+            }
+        }
+    });
+});
+
+    // Reset button: go back to top of dropdown and show all rows
+const resetButton = document.getElementById('resetVariety');
+
+resetButton.addEventListener('click', function () {
+    // Go back to the first option in the dropdown
+    varietySelector.selectedIndex = 0; // this is your "back to beginning of dropdown list"
+
+    // Show all table rows again
+    document.querySelectorAll('tr').forEach(function (row) {
+        if (row.querySelector('.variety-name')) {
+            row.style.display = ''; // Show all rows
+        }
+    });
+});
+
+});
+
+
+</script>
+
+
+
+
+<p style="text-align: center;">We hope you find our site a valuable resource for turkey color genetics info.</p>
+        <p style="text-align: center;">Show us your support with a small donation to help us keep this site up for future generations to come.</p>
+
+        <!-- PayPal Donation Button -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align: center;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="Y374WWPPG7SL2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    
+
+
+
+
+
+    <!-- Footer -->
+<footer style="text-align: center; padding: 20px; background-color: transparent; color: black; font-weight: bold;">
+    &copy; 2024 Porter's Rare Heritage Turkeys
+</footer>
+
+<!-- JavaScript to toggle the menu on mobile -->
+<script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.navbar ul').classList.toggle('active');
+    });
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
