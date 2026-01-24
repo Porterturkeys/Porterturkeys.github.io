@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Porter's Rare Heritage Turkeys</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5e1c1;
+        }
+
+        /* Title Section */
+        .site-title {
+            font-size: 3em;
+            font-weight: bold;
+            color: black;
+            background-color: #1E82E6;
+            text-shadow: -2px -2px 0 tan, 2px 2px 8px rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Mobile Title Styles */
+        @media screen and (max-width: 768px) {
+            .site-title {
+                font-size: 2em;
+                padding: 15px;
+            }
+        }
+
+        /* Navbar Section */
+        .navbar {
+            width: 100%;
+            background-image: url("Pictures/wood%20background.jpg");
+            background-size: cover;
+            padding: 5px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .navbar li {
+            padding: 0 5px;
+            position: relative;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 1em;
+            display: block;
+            padding: 10px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar a:hover, .navbar a.active {
+            background-color: #575757;
+            color: yellow;
+            border-radius: 4px;
+        }
+
+        /* Dropdown Styling */
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            min-width: 150px;
+            z-index: 1;
+            white-space: nowrap;
+        }
+
+        .dropdown a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .dropdown a:hover {
+            background-color: #575757;
+        }
+
+        /* Align Dropdown to Prevent Overflow */
+        .navbar li:hover .dropdown {
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        /* Prevent Dropdown from Overflowing on Right */
+        .navbar li:hover .dropdown {
+            right: auto;
+            left: auto;
+            right: 0; /* If near the right edge, align it to the right */
+        }
+
+        /* Mobile Menu Toggle */
+        .menu-toggle {
+            display: none;
+            font-size: 1.5em;
+            color: white;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        /* Content and Image */
+        .header {
+            margin: 20px 0;
+        }
+
+        .header h1 {
+            font-size: 1.50em;
+            margin: 10px 0;
+        }
+
+        .resized-img {
+            width: 90%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 8px solid #1E82E6;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #1E82E6;
+            padding: 20px;
+            color: black;
+            text-align: center;
+            margin-top: 40px;
+            width: 100%;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+
+        /* Mobile Styles */
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                display: none;
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .navbar ul.active {
+                display: flex;
+            }
+
+            .navbar li {
+                padding: 10px 0;
+            }
+
+            .navbar a {
+                padding: 10px;
+                font-size: 1.1em;
+            }
+
+            /* Dropdown styling in mobile */
+            .dropdown {
+                display: none;
+                width: 100%;
+            }
+
+            .navbar li.active .dropdown {
+                display: block;
+                position: static;
+            }
+        }
+        
+        
+
+        
+    </style>
+</head>
+<body>
+
+
+  <!-- Site Title -->
+    <div class="site-title"><i>Porter's Rare Heritage Turkeys</i></div>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <div class="menu-toggle">☰ Menu</div>
+        <ul>
+            <li><a href="index.html" class="active" id="home-link">Home</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/AboutUs">About Us</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/Varieties">Varieties</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyPoultsforSale">Turkey Poults for Sale</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyFeathersforSale">Feathers for Sale</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyColorCalculators">Turkey Color Calculators</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/Phenotypes-Genotypes">Phenotypes/Genotypes</a></li>
+            
+            <script src="VariousFunctions/SocialShareHome.js"></script>
+            <!-- More Info Dropdown -->
+            <li>
+                <a href="#" class="dropbtn">More Info ▼</a>
+                <div class="dropdown">
+                    <a href="https://porters-rare-heritage-turkeys.neocities.org/Feather-Color-Genetics">Feather Color Genetics</a>
+                    <a href= "https://porters-rare-heritage-turkeys.neocities.org/InstructionsAdvancedCalculator">Advanced Color Calculator Instructions</a>
+                    <a href="https://porters-rare-heritage-turkeys.neocities.org/InstructionsBeginnerCalculator">Beginner Color Calculator Instructions</a>
+                    <a href="https://porters-rare-heritage-turkeys.neocities.org/HeritageTurkeyDefined">Heritage Turkey Defined</a>
+                    <a href="https://porters-rare-heritage-turkeys.neocities.org/Inbreeding-Linebreeding">Inbreeding/Linebreeding</a>
+                    <a href= "https://porters-rare-heritage-turkeys.neocities.org/PoultStartingTips">Poult Starting Tips</a>
+                    <a href= "https://porters-rare-heritage-turkeys.neocities.org/PoultOrderingPolicy">Poult Ordering Policy</a>
+                    <a href="https://porters-rare-heritage-turkeys.neocities.org/EggHatchingTips">Egg Hatching Tips</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div class="header">
+        <h1>Welcome to our website</h1>
+        <img class="resized-img" src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/Toms1.jpg" alt="Porter's Rare Heritage Turkeys">
+    </div>
+
+   <strong style="font-size: 20px;">We are booking poult orders for the 2026 shipping season.<br><br> </strong>
+    
+    
+        <p class="centered-bold-text" style="text-align:center; font-weight:bold; font-size:20px; color:blue;">
+  *** Early Bird Special ***<br><br>
+  *** 10% off listed prices***<br><br>Limited time offer to those who get their order in early.
+</p>
+
+<p style="text-align:center;">
+  Go to our 
+  <a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyPoultsforSale" style="color:#1E82E6; font-weight:bold;">
+    Turkey Poults for Sale
+  </a> 
+  page for more info.
+</p>
+
+
+  
+    
+    
+
+
+   <br><br><br><br><br>
+
+
+    
+    <!-- Book Cover, Description, and Purchase Buttons -->
+    
+           <div class="book-description">
+    <strong class="line-1">My book on the genetic study of the "Painted Turkey" variety is now available in either paperback or eBook.<br></strong>
+    <br>
+    <span class="line-2">Forty pages packed with tons of information on the origin and genetic research of a new gene and variety. Includes over 100 pictures.</span>
+</div>
+
+<style>
+    .line-1 {
+        font-size: 20px; /* Adjust the font size for the first line */
+    }
+
+    .line-2 {
+        font-size: 16px; /* Adjust the font size for the second line */
+    }
+</style>
+
+
+        <br><br><br>
+
+        <div class="product-container">
+    <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered ecsp-Product ec-Product-627826708" itemscope itemtype="http://schema.org/Product" data-single-product-id="627826708">
+        <div itemprop="image"></div>
+        <div class="ecsp-title" itemprop="name" content="(The Painted Turkey Paperback Book)"></div>
+        <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="19.99" data-spw-price-location="button">
+                <div itemprop="priceCurrency" content="USD"></div>
+            </div>
+        </div>
+        <div customprop="options"></div>
+        <div customprop="addtobag"></div>
+        <div customprop="vatinprice"></div>
+    </div>
+
+    <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered ecsp-Product ec-Product-703339979" itemscope itemtype="http://schema.org/Product" data-single-product-id="703339979">
+        <div itemprop="image"></div>
+        <div class="ecsp-title" itemprop="name" content="The Painted Turkey (eBook) pdf Download"></div>
+        <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="4.99" data-spw-price-location="button">
+                <div itemprop="priceCurrency" content="USD"></div>
+            </div>
+        </div>
+        <div customprop="options"></div>
+        <div customprop="addtobag"></div>
+        <div customprop="vatinprice"></div>
+    </div>
+</div>
+
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?10366818&amp;data_platform=singleproduct_v2" charset="utf-8"></script>
+<script type="text/javascript">xProduct()</script>
+
+<style>
+    .product-container {
+        display: flex;
+        gap: 20px; /* Space between the products */
+        justify-content: center; /* Center the products horizontally */
+        flex-wrap: wrap; /* Allows wrapping if the screen is too small */
+    }
+
+    .ecsp-Product {
+        flex: 1 1 300px; /* Adjust the width as needed */
+        max-width: 400px; /* Maximum width for each product */
+    }
+</style>
+
+<br>
+<!-- Advertisement Section for Turkey Color Genetics 101 -->
+<div style="text-align: center; padding: 20px; background-color: #f9f9f9; border: 2px solid #ccc; border-radius: 10px; margin: 20px auto; max-width: 600px;">
+    <h2 style="color: #2d3748; font-size: 24px;">Discover the Secrets of Turkey Color Genetics!</h2>
+    <p style="color: #4a5568; font-size: 16px; line-height: 1.5;">
+        Fascinated by the incredible diversity of turkey colors and patterns? Whether you’re a breeder, an enthusiast, or simply curious, 
+        <strong>Facebook Group: Turkey Color Genetics 101, founded and led by Kevin Porter</strong>, is the perfect place to learn, share, and connect!
+    </p>
+    <ul style="text-align: left; margin: 0 auto; padding: 10px 20px; color: #4a5568; font-size: 16px; line-height: 1.5; list-style: none;">
+        <li><strong>Expert Knowledge:</strong> Learn from seasoned breeders and genetics specialists.</li>
+        <li><strong>Educational Discussions:</strong> Explore the science behind turkey color inheritance.</li>
+        <li><strong>Show Off Your Flock:</strong> Share photos of your turkeys and showcase their unique traits.</li>
+        <li><strong>Community Support:</strong> Ask questions and receive expert advice on breeding strategies.</li>
+        <li><strong>Colorful Inspiration:</strong> Learn how to achieve the rarest and most stunning turkey varieties.</li>
+    </ul>
+    <a href="https://www.facebook.com/groups/Turkeycolorgenetics" target="_blank" 
+       style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #4267B2; color: white; text-decoration: none; border-radius: 5px; font-size: 18px;">
+        Join Turkey Color Genetics 101 on Facebook
+    </a>
+</div>
+
+
+<p style="text-align: center;">We hope you find our site a valuable resource for turkey color genetics info.</p>
+        <p style="text-align: center;">Show us your support with a small donation to help us keep this site up for future generations to come.</p>
+
+        <!-- PayPal Donation Button -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align: center;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="Y374WWPPG7SL2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    
+
+
+<br><br><br><br>
+
+<div id="shareSection"></div>
+
+<br>
+
+<!-- Start Bravenet.com Service Code -->
+<script type="text/javascript" src="https://pub38.bravenet.com/counter/code.php?id=409271&amp;usernum=3254140663&amp;cpv=3"></script>
+<!-- End Bravenet.com Service Code -->
+    
+    
+
+
+<!-- Footer Section -->
+<footer>
+    &copy; 2024 Porter's Rare Heritage Turkeys
+</footer>
+
+<!-- JavaScript to Toggle Menu on Mobile -->
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.navbar ul');
+    const moreInfoLink = document.querySelector('.dropbtn').parentElement;
+
+    // Toggle mobile menu
+    menuToggle.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+    });
+
+    // Toggle More Info dropdown on click in mobile view
+    moreInfoLink.addEventListener('click', function(e) {
+        if (e.target.classList.contains('dropbtn')) {
+            e.preventDefault();  // Prevent default action for "More Info" link
+            moreInfoLink.classList.toggle('active');  // Toggle dropdown visibility
+        }
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
