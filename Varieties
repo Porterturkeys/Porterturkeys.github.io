@@ -1,0 +1,914 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varieties - Porter's Rare Heritage Turkeys</title>
+    <style>
+        /* Basic styling */
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5e1c1;
+        }
+
+        /* Title Section */
+        .site-title {
+            font-size: 3em;
+            font-weight: bold;
+            color: black;
+            background-color: #1E82E6;
+            text-shadow: -2px -2px 0 tan, 2px 2px 8px rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        /* Mobile Title Styles */
+        @media screen and (max-width: 768px) {
+            .site-title {
+                font-size: 2em;
+                padding: 15px;
+            }
+        }
+      
+
+        /* Navbar Section */
+        .navbar {
+            width: 100%;
+            background-image: url("https://porters-rare-heritage-turkeys.neocities.org/Pictures/wood%20background.jpg");
+            background-size: cover;
+            padding: 5px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            padding: 0 5px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+            display: block;
+            padding: 10px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar a:hover, .navbar a.active {
+            background-color: #575757;
+            color: yellow;
+            border-radius: 4px;
+        }
+
+        /* Mobile Menu Toggle */
+        .menu-toggle {
+            display: none;
+            font-size: 1.5em;
+            color: white;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+        }
+
+     /* Gallery Container */
+.gallery {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Gallery Link and Container */
+.gallery a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #f5e1c1; /* Tan background */
+    border-radius: 8px; /* Rounded corners for the entire container */
+    overflow: hidden;
+    box-sizing: border-box; /* Keeps padding within container */
+}
+
+/* Image Styling */
+.gallery img {
+    width: 100%; /* Full width for alignment */
+    height: 150px; /* Fixed height to prevent cutoff */
+    object-fit: cover;
+    border-radius: 8px 8px 0 0; /* Rounds only the top corners of the image */
+}
+
+/* Set fixed height for name containers */
+.gallery span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 0 0 8px 8px;
+    box-sizing: border-box;
+    height: 50px; /* Adjust height to fit all names */
+    width: 100%; /* Ensure width matches the image */
+    text-align: center; /* Center text within the container */
+    overflow: hidden; /* Hide any overflow for extremely long names */
+}
+
+
+/* Responsive grid setup for different screen sizes */
+@media (max-width: 768px) and (orientation: portrait) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns in portrait */
+    }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns in landscape */
+    }
+}
+
+@media (min-width: 1025px) {
+    .gallery {
+        grid-template-columns: repeat(7, 1fr); /* 7 columns on desktop */
+    }
+}
+
+
+
+/* Hover effect to enlarge images */
+        .gallery a:hover {
+        transform: scale(1.05); /* Slight enlargement on hover */
+        transition: transform 0.2s ease-in-out; /* Smooth transition */
+        }
+
+        /* Mobile-Specific Dropdown */
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+            .navbar ul {
+                display: none;
+                background-color: rgba(0, 0, 0, 0.7);
+                flex-direction: column;
+            }
+            .navbar ul.active {
+                display: flex;
+            }
+        }
+        
+        /* Footer */
+        footer {
+            padding: 20px;
+            color: black;
+            text-align: center;
+            Font-weight: bold;
+        }
+
+        /* Filter Dropdown */
+        .filter-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .filter-container select {
+            padding: 10px;
+            font-size: 1em;
+        }
+        
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- Site Title -->
+    <div class="site-title"><i>Porter's Rare Heritage Turkeys</i></div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="menu-toggle">☰ Menu</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/Varieties" class="active">Varieties</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/Phenotypes-Genotypes">Phenotypes/Genotypes</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyPoultsforSale">Turkey Poults for Sale</a></li>
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyColorCalculators">Turkey Color Calculators</a></li>
+            
+            <li><a href="https://porters-rare-heritage-turkeys.neocities.org/TurkeyFeathersforSale">Feathers for Sale</a></li>
+        </ul>
+    </div>
+    
+     <!-- Header and Content Section -->
+<div class="header">
+    <h1>Various Varieties</h1>
+    <p><strong>Click on a variety image below for more info. <br><br> "You can also organize the varieties into specific categories for easier viewing"</strong></p>
+    
+   <!-- Filter Dropdown -->
+    <div class="filter-container">
+        <label for="varietyFilter">Filter by Category:</label>
+        <select id="varietyFilter">
+            <option value="All">All Varieties</option>
+            <option value="APA">A.P.A. Recognized Varieties</option>
+            <option value="Barred">Barred Varieties</option>
+            <option value="Black">Black Varieties</option>
+            <option value="BW">Black Winged Varieties</option>
+            <option value="Blue">Blue Varieties</option>
+            <option value="Brown">Brown Varieties</option>
+            <option value="Gray">Gray Varieties</option>
+            <option value="Mottled">Mottled Varieties</option>
+            <option value="Painted">Painted Varieties</option>
+            <option value="P-T">Palm and Tri-Color Varieties</option>
+            <option value="Pencilled">Pencilled Varieties</option>
+            <option value="Red">Red Varieties</option>
+            <option value="Solid">Solid Color Varieties</option>
+            <option value="Misc">Miscellaneous Varieties</option>
+        </select>
+    </div>
+    
+    <p style="color: blue;"><strong>"Please note: This page is still under construction, so not all variety pages may be completed yet.<br> Please check back regularly for updates."</strong></p>
+</div>
+    
+
+    <!-- Gallery Section -->
+    <div id="gallery" class="gallery">
+    
+        <a href="https://porters-rare-heritage-turkeys.neocities.org/Auburn" data-category="Barred, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MAuburn.jpg" alt="Auburn"> 
+    <span>Auburn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BarredBlack" data-category="Barred, Black">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBarredBlack.jpg" alt="Barred Black">
+    <span>Barred Black</span>
+    
+    </a>
+    
+    <a href="https://porters-rare-heritage-turkeys.neocities.org/BarredChocolate" data-category="Barred, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBarredChocolate.jpg" alt="Barred Chocolate">
+    <span>Barred Chocolate</span>
+</a>
+
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BeltsvilleSmallWhite" data-category="Solid, APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBeltsvilleSmallWhite.jpg" alt="Beltsville Small White"> 
+    <span>Beltsville Small White</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Black" data-category="Solid, Black, APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBlack.jpg" alt="Black">
+    <span>Black</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BlackTuxedo" data-category="Black, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBlackTuxedo.jpg" alt="Black Tuxedo"> 
+    <span>Black Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BlackWingedBronze" data-category="BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBlackWingedBronze.jpg" alt="Black Winged Bronze"> 
+    <span>Black Winged Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BlackWingedNarragansett" data-category="BWN">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBlackWingedNarragansett.jpg" alt="Black Winged Narragansett"> 
+    <span>Black Winged Narragansett</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BlueNarragansett" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBlueNarragansett.jpg" alt="Blue Narragansett">
+    <span>Blue Narragansett</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BluePalm" data-category="Blue, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBluePalm.jpg" alt="Blue Palm">
+    <span>Blue Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BlueRedBronze" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBlueRedBronze.jpg" alt="Blue Red Bronze">
+    <span>Blue Red Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BlueSweetgrass" data-category="P-T, Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBlueSweetgrass.jpg" alt="Blue Sweetgrass">
+    <span>Blue Sweetgrass</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BlueWingedHarvestGold" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/FBlueWingedHarvestGold.jpg" alt="Blue Winged Harvest Gold">
+    <span>Blue Winged Harvest Gold</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BourbonBuff" data-category="Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBourbonBuff.jpg" alt="Bourbon Buff">
+    <span>Bourbon Buff</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BourbonRed" data-category="Red, APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBourbonRed.jpg" alt="Bourbon Red">
+    <span>Bourbon Red</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Bronze" data-category="Barred, APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBronze.jpg" alt="Bronze">
+    <span>(Standard) Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/BrownEdgedJerseyBuff" data-category="Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MBrownEdgedJerseyBuff.jpg" alt="Brown Edged Jersey Buff">
+    <span>Brown Edged Jersey Buff</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Calico" data-category="P-T,BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MCalico.jpg" alt="Calico">
+    <span>Calico</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/ChestnutRed" data-category="Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MChestnutRed.jpg" alt="Chestnut Red">
+    <span>Chestnut Red</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Chocolate" data-category="Solid, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MChocolate.jpg" alt="Chocolate">
+    <span>Chocolate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/ChocolateDapple" data-category="Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MChocolateDapple.jpg" alt="Chocolate Dapple">
+    <span>Chocolate Dapple</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/ChocolatePainted-" data-category="Painted, Brown"> 
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MChocolatePainted-.jpg" alt="Chocolate Painted">
+    <span>Chocolate Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/ChocolatePalm" data-category="P-T, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MChocolatePalm.jpg" alt="Chocolate Palm">
+    <span>Chocolate Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/ChocolateSlate" data-category="Blue, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MChocolateSlate.jpg" alt="Chocolate Slate">
+    <span>Chocolate Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/ChocolateSweetgrass" data-category="Brown, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MChocolateSweetgrass.jpg" alt="Chocolate Sweetgrass">
+    <span>Chocolate Sweetgrass</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/ChocolateTuxedo" data-category="Brown, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/FChocolateTuxedo.jpg" alt="Chocolate Tuxedo">
+    <span>Chocolate Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/DarkBlue" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MDarkBlue.jpg" alt="Dark Blue">
+    <span>Dark Blue</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/DarkGray" data-category="Gray">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MDarkGray.jpg" alt="Dark Gray">
+    <span>Dark Gray</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/DiluteRustyBlack" data-category="Black, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MDiluteRustyBlack.jpg" alt="Dilute Rusty Black">
+    <span>Dilute Rusty Black</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/DiluteRustyBrown" data-category="Brown, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MDiluteRustyBrown.jpg" alt="Dilute Rusty Brown">
+    <span>Dilute Rusty Brown</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/DiluteRustySlate" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MDiluteRustySlate.jpg" alt="Dilute Rusty Slate">
+    <span>Dilute Rusty Slate</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/FallFire" data-category="P-T, BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MFallFire.jpg" alt="Fall Fire">
+    <span>Fall Fire</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Fawn" data-category="Misc">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MFawn.jpg" alt="Fawn">
+    <span>Fawn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GoldenNarragansett" data-category="Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGoldenNarragansett.jpg" alt="Golden Narragansett">
+    <span>Golden Narragansett</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GoldenPhoenix" data-category="BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGoldenPhoenix.jpg" alt="Golden Phoenix">
+    <span>Golden Phoenix</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GoldenSilverAuburn" data-category="Brown, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/FGoldenSilverAuburn.jpg" alt="Golden Silver Auburn">
+    <span>Golden Silver Auburn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GrizzledBlackPainted" data-category="Painted, Black">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGrizzledBlackPainted.jpg" alt="Grizzled Black Painted">
+    <span>Grizzled Black Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GrizzledChocolatePainted" data-category="Painted, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGrizzledChocolatePainted.jpg" alt="Grizzled Chocolate Painted">
+    <span>Grizzled Chocolate Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GrizzledLavenderPainted" data-category="Painted, Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGrizzledLavenderPainted.jpg" alt="Grizzled Lavender Painted">
+    <span>Grizzled Lavender Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GrizzledRecessiveBluePainted" data-category="Painted, Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGrizzledRecessiveBluePainted.jpg" alt="Grizzled Recessive Blue Painted">
+    <span>Grizzled Recessive Blue Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GrizzledRustyPainted" data-category="Painted">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGrizzledRustyPainted.jpg" alt="Grizzled Rusty Painted">
+    <span>Grizzled Rusty Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/GrizzledSlatePainted" data-category="Painted, Blue">
+        <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MGrizzledSlatePainted.jpg" alt="Grizzled Slate Painted">
+        <span>Grizzled Slate Painted</span>
+    </a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/HarvestGold" data-category="BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MHarvestGold.jpg" alt="Harvest Gold">
+    <span>Harvest Gold</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/HarveySpeckled" data-category="Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MHarveySpeckled.jpg" alt="Harvey Speckled">
+    <span>Harvey Speckled</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/JerseyBuff" data-category="Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MJerseyBuff.jpg" alt="Jersey Buff">
+    <span>Jersey Buff</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Lavender" data-category="Solid, Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MLavender.jpg" alt="Lavender">
+    <span>Lavender</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/LavenderPalm" data-category="Blue, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MLavenderPalm.jpg" alt="Lavender Palm">
+    <span>Lavender Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/LavenderRedBronze" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MLavenderRedBronze.jpg" alt="Lavender Red Bronze">
+    <span>Lavender Red Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/LavenderSweetgrass" data-category="Blue, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MLavenderSweetgrass.jpg" alt="Lavender Sweetgrass">
+    <span>Lavender Sweetgrass</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Lilac" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MLilac.jpg" alt="Lilac">
+    <span>Lilac</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MidgetWhite" data-category="Solid">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/Midget-White-Turkeys.jpg" alt="Midget White">  
+    <span>Midget White</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledAuburn" data-category="Brown, Barred, Mottled"> 
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/FMottledAuburn.jpg" alt="Mottled Auburn">
+    <span>Mottled Auburn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledBlack" data-category="Mottled, Black">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledBlack.jpg" alt="Mottled Black">
+    <span>Mottled Black</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledBlackTuxedo" data-category="Mottled, Black, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledBlackTuxedo.jpg" alt="Mottled Black Tuxedo">
+    <span>Mottled Black Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledBlackWingedBronze" data-category="Mottled, BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledBlackWingedBronze.jpg" alt="Mottled Black Winged Bronze">
+    <span>Mottled Black Winged Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledBronze" data-category="Mottled, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledBronze.jpg" alt="Mottled Bronze">
+    <span>Mottled Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledBrownWingedAuburn" data-category="Mottled, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledBrownWingedAuburn.jpg" alt="Mottled Brown Winged Auburn">
+    <span>Mottled Brown Winged Auburn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledChocolate" data-category="Mottled, Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledChocolate.jpg" alt="Mottled Chocolate">
+    <span>Mottled Chocolate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledRecessiveSlate" data-category="Blue, Barred, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledRecessiveSlate.jpg" alt="Mottled Recessive Slate">
+    <span>Mottled Recessive Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledRed" data-category="Mottled, Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledRed.jpg" alt="Mottled Red">
+    <span>Mottled Red</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledRedBronze" data-category="Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledRedBronze.jpg" alt="Mottled Red Bronze">
+    <span>Mottled Red Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledRustyTuxedo" data-category="Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledRustyTuxedo.jpg" alt="Mottled Rusty Tuxedo">
+    <span>Mottled Rusty Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MottledSlate" data-category="Blue, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MMottledSlate.jpg" alt="Mottled Slate">
+    <span>Mottled Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Narragansett" data-category="Barred, APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MNarragansett.jpg" alt="Narragansett">
+    <span>Narragansett</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Nebraskan" data-category="Misc">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MNebraskan.jpg" alt="Nebraskan">
+    <span>Nebraskan</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/OregonBlue" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MOregonBlue.jpg" alt="Oregon Blue">
+    <span>Oregon Blue</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/OregonBrown" data-category="Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MOregonBrown.jpg" alt="Oregon Brown">
+    <span>Oregon Brown</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/OregonGray" data-category="Gray">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MOregonGray.jpg" alt="Oregon Gray">
+    <span>Oregon Gray</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Painted" data-category="Painted">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPainted.jpg" alt="Painted">
+    <span>Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/PencilledBlackWingedBronze" data-category="BW, Pencilled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPencilledBlackWingedBronze.jpg" alt="Pencilled Black Winged Bronze">
+    <span>Pencilled Black Winged Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/PencilledBlueFallFire" data-category="Pencilled, Blue, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPencilledBlueFallFire.jpg" alt="Pencilled Blue Fall Fire">
+    <span>Pencilled Blue Fall Fire</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/PencilledBluePalm" data-category="Blue, Pencilled, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPencilledBluePalm.jpg" alt="Pencilled Blue Palm">
+    <span>Pencilled Blue Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/PencilledChocolatePalm" data-category="Pencilled, Brown, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPencilledChocolatePalm.jpg" alt="Pencilled Chocolate Palm">
+    <span>Pencilled Chocolate Palm</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/PencilledMottledBrownWingedAuburn" data-category="Pencilled, Brown, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPencilledMottledBrownWingedAuburn.jpg" alt="Pencilled Mottled Brown Winged Auburn">
+    <span>Pencilled Mottled Brown Winged Auburn</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/PencilledPalm" data-category="Pencilled, P-T, BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPencilledPalm.jpg" alt="Pencilled Palm">
+    <span>Pencilled Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/PencilledRedPalm" data-category="Pencilled, Red, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MPencilledRedPalm.jpg" alt="Pencilled Red Palm">
+    <span>Pencilled Red Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RecessiveBlue" data-category="Solid, Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveBlue.jpg" alt="Recessive Blue">
+    <span>Recessive Blue</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RecessiveBlueFawn" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveBlueFawn.jpg" alt="Recessive Blue Fawn">
+    <span>Recessive Blue Fawn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RecessiveBlueNarragansett" data-category="Blue, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveBlueNarragansett.jpg" alt="Recessive Blue Narragansett">
+    <span>Recessive Blue Narragansett</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RecessiveBluePainted" data-category="Painted, Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveBluePainted.jpg" alt="Recessive Blue Painted">
+    <span>Recessive Blue Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/MRecessiveBlueSweetgrass" data-category="Blue, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveBlueSweetgrass.jpg" alt="Recessive Blue Sweetgrass"> 
+    <span>Recessive Blue Sweetgrass</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RecessiveBlueTuxedo" data-category="Blue, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveBlueTuxedo.jpg" alt="Recessive Blue Tuxedo">
+    <span>Recessive Blue Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RecessiveLilac" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveLilac.jpg" alt="Recessive Lilac">
+    <span>Recessive Lilac</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RecessiveSlate" data-category="Blue, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRecessiveSlate.jpg" alt="Recessive Slate">
+    <span>Recessive Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RedAuburn" data-category="Brown, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/FRedAuburn.jpg" alt="Red Auburn">
+    <span>Red Auburn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RedBronze" data-category="Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRedBronze.jpg" alt="Red Bronze">
+    <span>Red Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RedPalm" data-category="Red, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRedPalm.jpg" alt="Red Palm">
+    <span>Red Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RedPhoenix" data-category="BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRedPhoenix.jpg" alt="Red Phoenix">
+    <span>Red Phoenix</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RedSlate" data-category="Blue"> 
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRedSlate.jpg" alt="Red Slate">
+    <span>Red Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RedSweetgrass" data-category="Red, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRedSweetgrass.jpg" alt="Red Sweetgrass">
+    <span>Red Sweetgrass</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RedTuxedo" data-category="Red, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRedTuxedo.jpg" alt="Red Tuxedo">
+    <span>Red Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RegalRed" data-category="Solid, Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRegalRed.jpg" alt="Regal Red">
+    <span>Regal Red</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RoyalPalm" data-category="P-T, BW, APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRoyalPalm.jpg" alt="Royal Palm">
+    <span>Royal Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RustyBlack" data-category="Black, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRustyBlack.jpg" alt="Rusty Black">
+    <span>Rusty Black</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RustyBrown" data-category="Brown, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRustyBrown.jpg" alt="Rusty Brown">
+    <span>Rusty Brown</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RustyPainted" data-category="Painted">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRustyPainted.jpg" alt="Rusty Painted">
+    <span>Rusty Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RustySlate" data-category="Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRustySlate.jpg" alt="Rusty Slate">
+    <span>Rusty Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/RustyTuxedo" data-category="Mottled, Black">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MRustyTuxedo.jpg" alt="Rusty Tuxedo">
+    <span>Rusty Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/SelfBuff" data-category="Solid, Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MSelfBuff.jpg" alt="Self Buff">
+    <span>Self Buff</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/SilverAuburn" data-category="Brown, Barred">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MSilverAuburn.jpg" alt="Silver Auburn">
+    <span>Silver Auburn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/SilverDapple" data-category="Gray">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MSilverDapple.jpg" alt="Silver Dapple">
+    <span>Silver Dapple</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Slate" data-category="Blue,APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MSlate.jpg" alt="Slate">
+    <span>Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/SlateEdgedBourbonRed" data-category="Red">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/FSlateEdgedBourbonRed.jpg" alt="Slate Edged Bourbon Red">
+    <span>Slate Edged Bourbon Red</span>
+</a>
+
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/SlatePainted" data-category="Painted, Blue">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MSlatePainted.jpg" alt="Slate Painted">
+    <span>Slate Painted</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/SlateTuxedo" data-category="Blue, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MSlateTuxedo.jpg" alt="Slate Tuxedo">
+    <span>Slate Tuxedo</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Sweetgrass" data-category="BW, P-T">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MSweetgrass.jpg" alt="Sweetgrass">
+    <span>Sweetgrass</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/TigerBlue" data-category="Blue, Pencilled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MTigerBlue.jpg" alt="Tiger Blue">
+    <span>Tiger Blue</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/TigerBronze" data-category="BW, Pencilled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MTigerBronze.jpg" alt="Tiger Bronze">
+    <span>Tiger Bronze</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Tri-colorMottledBlack" data-category="Black, P-T, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MTri-colorMottledBlack.jpg" alt="Tri-color Mottled Black">
+    <span>Tri-color Mottled Black</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Tri-colorMottledSlate" data-category="Blue, P-T, Mottled">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MTri-colorMottledSlate.jpg" alt="Tri-color Mottled Slate">
+    <span>Tri-color Mottled Slate</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/Tri-colorPencilledPalm" data-category="P-T, Pencilled, BW">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MTri-colorPencilledPalm.jpg" alt="Tri-color Pencilled Palm">
+    <span>Tri-color Pencilled Palm</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/WhiteHolland" data-category="Solid, APA">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MWhiteHolland.jpg" alt="White Holland">
+    <span>White Holland</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/WhiteWingedChocolateFawn" data-category="Brown">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/FWhiteWingedChocolateFawn.jpg" alt="White Winged Chocolate Fawn">
+    <span>White Winged Chocolate Fawn</span>
+</a>
+
+<a href="https://porters-rare-heritage-turkeys.neocities.org/WhiteWingedFawn" data-category="Misc">
+    <img src="https://porters-rare-heritage-turkeys.neocities.org/Pictures/MWhiteWingedFawn.jpg" alt="White Winged Fawn">
+    <span>White Winged Fawn</span>
+    
+    </a>
+    
+    
+        
+</div>
+
+    <!-- Return to Top Button -->
+    <button id="returnToTop" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #1E82E6; color: white; border: none; border-radius: 5px; cursor: pointer; display: none;">Return to Top</button>
+
+    <p style="text-align: center;">We hope you find our site a valuable resource for turkey color genetics info.</p>
+        <p style="text-align: center;">Show us your support with a small donation to help us keep this site up for future generations to come.</p>
+
+        <!-- PayPal Donation Button -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align: center;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="Y374WWPPG7SL2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    
+    <br>
+    
+
+    <!-- Footer -->
+    <footer style="text-align: center;">&copy; 2024 Porter's Rare Heritage Turkeys</footer>
+
+    
+
+    <!-- JavaScript -->
+    <script>
+        // Filter Function
+        document.addEventListener("DOMContentLoaded", function() {
+            // Lazy Load all images
+            document.querySelectorAll("img").forEach(img => {
+                img.setAttribute("loading", "lazy");
+            });
+
+            // Mobile Menu Toggle
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.navbar ul');
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                });
+            }
+
+            // Return to Top Button Function
+            window.onscroll = function() {
+                const returnToTopButton = document.getElementById("returnToTop");
+                returnToTopButton.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) ? "block" : "none";
+            };
+
+            document.getElementById("returnToTop").addEventListener("click", function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // Gallery Filter Function
+            const items = document.querySelectorAll('[data-category]');
+            const filterDropdown = document.getElementById('varietyFilter');
+
+            if (filterDropdown) {
+                filterDropdown.addEventListener('change', (event) => {
+                    const selectedCategory = event.target.value;
+                    applyFilters(selectedCategory);
+                });
+            }
+
+            function applyFilters(selectedCategory) {
+                items.forEach(item => {
+                    const categories = item.getAttribute('data-category').split(',').map(category => category.trim());
+                    item.style.display = (selectedCategory === 'All' || categories.includes(selectedCategory)) ? 'block' : 'none';
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
